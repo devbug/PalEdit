@@ -1,0 +1,266 @@
+{
+    "UNKNOWN": {
+        "Name": "Unknown",
+        "Description": " does not exist or is not in our database yet"
+    },
+    "NONE": {
+        "Name": "None",
+        "Description": "The pal has no skill in this slot"
+    },
+    "ElementResist_Normal_1_PAL": {
+        "Name": "어브노멀",
+        "Description": "무속성 피해 -10%"
+    },
+    "ElementResist_Dark_1_PAL": {
+        "Name": "밝은 성격",
+        "Description": "어둠 속성 피해 -10%"
+    },
+    "ElementResist_Dragon_1_PAL": {
+        "Name": "용 학살자",
+        "Description": "용 속성 피해 -10%"
+    },
+    "ElementResist_Ice_1_PAL": {
+        "Name": "고온 체질",
+        "Description": "얼음 속성 피해 -10%"
+    },
+    "ElementResist_Fire_1_PAL": {
+        "Name": "일광욕 선호",
+        "Description": "화염 속성 피해 -10%"
+    },
+    "ElementResist_Leaf_1_PAL": {
+        "Name": "방초 효과",
+        "Description": "풀 속성 피해 -10%"
+    },
+    "ElementResist_Earth_1_PAL": {
+        "Name": "내진 구조",
+        "Description": "땅 속성 피해 -10%"
+    },
+    "ElementResist_Thunder_1_PAL": {
+        "Name": "절연체",
+        "Description": "번개 속성 피해 -10%"
+    },
+    "ElementResist_Aqua_1_PAL": {
+        "Name": "방수 가공",
+        "Description": "물 속성 피해 -10%"
+    },
+    "ElementBoost_Normal_1_PAL": {
+        "Name": "무의 경지",
+        "Description": "무 속성 공격 +10%"
+    },
+    "ElementBoost_Dark_1_PAL": {
+        "Name": "밤의 장막",
+        "Description": "어둠 속성 공격 +10%"
+    },
+    "ElementBoost_Dragon_1_PAL": {
+        "Name": "용의 혈족",
+        "Description": "용 속성 공격 +10%"
+    },
+    "ElementBoost_Ice_1_PAL": {
+        "Name": "냉혈",
+        "Description": "얼음 속성 공격 +10%"
+    },
+    "ElementBoost_Fire_1_PAL": {
+        "Name": "불놀이 선호",
+        "Description": "화염 속성 공격 +10%"
+    },
+    "ElementBoost_Leaf_1_PAL": {
+        "Name": "초목의 향기",
+        "Description": "풀 속성 공격 +10%"
+    },
+    "ElementBoost_Earth_1_PAL": {
+        "Name": "대지의 힘",
+        "Description": "땅 속성 공격 +10%"
+    },
+    "ElementBoost_Thunder_1_PAL": {
+        "Name": "콘덴서",
+        "Description": "번개 속성 공격 +10%"
+    },
+    "ElementBoost_Aqua_1_PAL": {
+        "Name": "물놀이 선호",
+        "Description": "물 속성 공격 +10%"
+    },
+    "ElementBoost_Normal_2_PAL": {
+        "Name": "성천",
+        "Description": "무 속성 공격 +20%; 팔라디우스 시그니처 능력"
+    },
+    "ElementBoost_Dark_2_PAL": {
+        "Name": "명왕",
+        "Description": "어둠 속성 공격 +20%; 켄타나이트 시그니처 능력"
+    },
+    "ElementBoost_Dragon_2_PAL": {
+        "Name": "신룡",
+        "Description": "용 속성 공격 +20%; 제트래곤 시그니처 능력"
+    },
+    "ElementBoost_Ice_2_PAL": {
+        "Name": "빙제",
+        "Description": "얼음 속성 공격 +20%; 빙천마 시그니처 능력"
+    },
+    "ElementBoost_Fire_2_PAL": {
+        "Name": "염제",
+        "Description": "화염 속성 공격 +20%; 마그마카이저 시그니처 능력"
+    },
+    "ElementBoost_Leaf_2_PAL": {
+        "Name": "정령왕",
+        "Description": "풀 속성 공격 +20%; 릴린 시그니처 능력"
+    },
+    "ElementBoost_Earth_2_PAL": {
+        "Name": "지제",
+        "Description": "땅 속성 공격 +20%; 아누비스 시그니처 능력"
+    },
+    "ElementBoost_Thunder_2_PAL": {
+        "Name": "뇌제",
+        "Description": "번개 속성 공격 +20%; 전룡맨 시그니처 능력"
+    },
+    "ElementBoost_Aqua_2_PAL": {
+        "Name": "해왕",
+        "Description": "물 속성 공격 +20%; 레비드라 시그니처 능력"
+    },
+    "PAL_ALLAttack_up1": {
+        "Name": "용감",
+        "Description": "공격 +10%"
+    },
+    "PAL_ALLAttack_up2": {
+        "Name": "사나움",
+        "Description": "공격 +20%"
+    },
+    "PAL_ALLAttack_down1": {
+        "Name": "겁쟁이",
+        "Description": "공격 -10%"
+    },
+    "PAL_ALLAttack_down2": {
+        "Name": "무사주의",
+        "Description": "공격 -20%"
+    },
+    "Deffence_up1": {
+        "Name": "단단한 피부",
+        "Description": "방어 +10%"
+    },
+    "Deffence_up2": {
+        "Name": "억센 육체",
+        "Description": "방어 +20%"
+    },
+    "Deffence_down1": {
+        "Name": "약한 맷집",
+        "Description": "방어 -10%"
+    },
+    "Deffence_down2": {
+        "Name": "부실한 뼈",
+        "Description": "방어 -20%"
+    },
+    "TrainerMining_up1": {
+        "Name": "광산 관리자",
+        "Description": "플레이어의 체굴 효율 +25%"
+    },
+    "TrainerLogging_up1": {
+        "Name": "벌목 관리자",
+        "Description": "플레이어의 벌목 효율 +25%"
+    },
+    "TrainerATK_UP_1": {
+        "Name": "돌격 지휘자",
+        "Description": "플레이어의 공격 +10%"
+    },
+    "TrainerWorkSpeed_UP_1": {
+        "Name": "동기 부여",
+        "Description": "플레이어 작업 속도 +25%"
+    },
+    "TrainerDEF_UP_1": {
+        "Name": "철옹성의 책사",
+        "Description": "플레이어의 방어 +10%"
+    },
+    "PAL_Sanity_Down_1": {
+        "Name": "긍정적인 사고",
+        "Description": "SAN 수치 쉽게 내려가지 않음 +10%"
+    },
+    "PAL_Sanity_Down_2": {
+        "Name": "일 중독",
+        "Description": "SAN 수치 쉽게 내려가지 않음 +15%"
+    },
+    "PAL_Sanity_Up_1": {
+        "Name": "정신 불안정",
+        "Description": "SAN 수치 쉽게 내려감 +10%"
+    },
+    "PAL_Sanity_Up_2": {
+        "Name": "파멸 기원",
+        "Description": "SAN 수치 쉽게 내려감 +15%"
+    },
+    "PAL_FullStomach_Down_1": {
+        "Name": "소식",
+        "Description": "포만도 쉽게 내려가지 않음 +10%"
+    },
+    "PAL_FullStomach_Down_2": {
+        "Name": "식습관의 달인",
+        "Description": "포만도 쉽게 내려가지 않음 +15%"
+    },
+    "PAL_FullStomach_Up_1": {
+        "Name": "먹보",
+        "Description": "포만도 쉽게 내려감 +10%"
+    },
+    "PAL_FullStomach_Up_2": {
+        "Name": "블랙홀 위장",
+        "Description": "포만도 쉽게 내려감 +15%"
+    },
+    "CraftSpeed_up1": {
+        "Name": "성실함",
+        "Description": "작업 속도 +20%"
+    },
+    "CraftSpeed_up2": {
+        "Name": "장인 기질",
+        "Description": "작업 속도 +50%"
+    },
+    "CraftSpeed_down1": {
+        "Name": "서투름",
+        "Description": "작업 속도 -10%"
+    },
+    "CraftSpeed_down2": {
+        "Name": "농땡이치는 버릇",
+        "Description": "작업 속도 -30%"
+    },
+    "MoveSpeed_up_1": {
+        "Name": "재빠름",
+        "Description": "이동 속도 +10%"
+    },
+    "MoveSpeed_up_2": {
+        "Name": "달리기 왕",
+        "Description": "이동 속도 +20%"
+    },
+    "MoveSpeed_up_3": {
+        "Name": "신속",
+        "Description": "이동 속도 +30%"
+    },
+    "PAL_CorporateSlave": {
+        "Name": "일 노예",
+        "Description": "작업 속도 +30%, 공격 -30%"
+    },
+    "PAL_rude": {
+        "Name": "난폭함",
+        "Description": "공격 +15%, 작업 속도 -10%"
+    },
+    "Noukin": {
+        "Name": "운동 바보",
+        "Description": "공격 +30%, 작업 속도 -50%"
+    },
+    "PAL_oraora": {
+        "Name": "불량배",
+        "Description": "공격 +10%, 방어 -10%"
+    },
+    "PAL_conceited": {
+        "Name": "자만심",
+        "Description": "작업 속도 +10%, 방어 -10%"
+    },
+    "PAL_masochist": {
+        "Name": "마조히스트",
+        "Description": "방어 +15%, 공격 -15%"
+    },
+    "PAL_sadist": {
+        "Name": "사디스트",
+        "Description": "공격 +15%, 방어 +15%"
+    },
+    "Rare": {
+        "Name": "희귀",
+        "Description": "공격 +15%, 작업 속도 +15%"
+    },
+    "Legend": {
+        "Name": "전설",
+        "Description": "공격 +20%, 방어 +20%, 이동 속도 +15%"
+    }
+}
