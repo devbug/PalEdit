@@ -1,0 +1,737 @@
+{
+    "values": [
+        {
+            "CodeName": "",
+            "Name": "",
+            "Type": "",
+            "Power": 0
+        },
+        {
+            "CodeName": "EPalWazaID::AcidRain",
+            "Name": "산성비",
+            "Type": "Water",
+            "Power": 80
+        },
+        {
+            "CodeName": "EPalWazaID::AirCanon",
+            "Name": "공기 대포",
+            "Type": "Neutral",
+            "Power": 25
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Deer_PushupHorn",
+            "Name": "들이받기",
+            "Type": "Neutral",
+            "Power": 50,
+            "Exclusive": ["Deer", "Deer_Ground"]
+        },
+        {
+            "CodeName": "EPalWazaID::WaterBall",
+            "Name": "물폭탄",
+            "Type": "Water",
+            "Power": 100
+        },
+        {
+            "CodeName": "EPalWazaID::WaterGun",
+            "Name": "아쿠아 샷",
+            "Type": "Water",
+            "Power": 40
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_JetDragon_JumpBeam",
+            "Name": "유성 광선",
+            "Type": "Dragon",
+            "Power": 140,
+            "Exclusive": ["JetDragon"]
+        },
+        {
+            "CodeName": "EPalWazaID::SelfDestruct_Bee",
+            "Name": "벌의 침묵",
+            "Type": "Grass",
+            "Power": 250,
+            "Exclusive": ["SoldierBee"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_GrassPanda_Electric_ElectricPunch",
+            "Name": "폭발 펀치",
+            "Type": "Electric",
+            "Power": 85,
+            "Exclusive": ["GrassPanda_Electric"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_FlameBuffalo_FlameHorn",
+            "Name": "불타는 뿔",
+            "Type": "Fire",
+            "Power": 50,
+            "Exclusive": ["FlameBuffalo"]
+        },
+        {
+            "CodeName": "EPalWazaID::IcicleThrow",
+            "Name": "눈보라 스파이크",
+            "Type": "Ice",
+            "Power": 130
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_FlowerDinosaur_Whip",
+            "Name": "꼬리 채찍",
+            "Type": "Grass",
+            "Power": 60,
+            "Exclusive": ["FlowerDinosaur"]
+        },
+        {
+            "CodeName": "EPalWazaID::BubbleShot",
+            "Name": "버블 샷",
+            "Type": "Water",
+            "Power": 65
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_NaughtyCat_CatPress",
+            "Name": "캣 프레스",
+            "Type": "Neutral",
+            "Power": 60,
+            "Exclusive": ["NaughtyCat"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_ChickenPal_ChickenPeck",
+            "Name": "치킨 태클",
+            "Type": "Neutral",
+            "Power": 30,
+            "Exclusive": ["ChickenPal"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_FengyunDeeper_CloudTempest",
+            "Name": "구름 폭풍",
+            "Type": "Neutral",
+            "Power": 90,
+            "Exclusive": ["FengyunDeeper"]
+        },
+        {
+            "CodeName": "EPalWazaID::CrossThunder",
+            "Name": "크로스 썬더",
+            "Type": "Electric",
+            "Power": 1
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_GrassPanda_MusclePunch",
+            "Name": "근육 펀치",
+            "Type": "Grass",
+            "Power": 85,
+            "Exclusive": ["GrassPanda"]
+        },
+        {
+            "CodeName": "EPalWazaID::FrostBreath",
+            "Name": "서리 낀 입김",
+            "Type": "Ice",
+            "Power": 90
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_IceHorse_IceBladeAttack",
+            "Name": "크리스탈 윙",
+            "Type": "Ice",
+            "Power": 110,
+            "Exclusive": ["IceHorse", "IceHorse_Dark"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_AmaterasuWolf_FireCharge",
+            "Name": "풍림화산",
+            "Type": "Fire",
+            "Power": 75,
+            "Exclusive": ["AmaterasuWolf"]
+        },
+        {
+            "CodeName": "EPalWazaID::DarkBall",
+            "Name": "암흑구",
+            "Type": "Dark",
+            "Power": 40
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_FireKirin_Dark_DarkTossin",
+            "Name": "어둠의 돌격",
+            "Type": "Dark",
+            "Power": 85,
+            "Exclusive": ["FireKirin_Dark"]
+        },
+        {
+            "CodeName": "EPalWazaID::DarkLaser",
+            "Name": "어둠의 레이저",
+            "Type": "Dark",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::DarkLegion",
+            "Name": "다크 위스프",
+            "Type": "Dark",
+            "Power": 160
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_BlackGriffon_TackleLaser",
+            "Name": "신이 내린 재앙",
+            "Type": "Dark",
+            "Power": 160,
+            "Exclusive": ["BlackGriffon", "GYM_BlackGriffon"]
+        },
+        {
+            "CodeName": "EPalWazaID::DragonBreath",
+            "Name": "용의 숨결",
+            "Type": "Dragon",
+            "Power": 70
+        },
+        {
+            "CodeName": "EPalWazaID::DragonWave",
+            "Name": "용의 파장",
+            "Type": "Dragon",
+            "Power": 55
+        },
+        {
+            "CodeName": "EPalWazaID::DragonCanon",
+            "Name": "용 대포",
+            "Type": "Dragon",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::DragonMeteor",
+            "Name": "용의 운석",
+            "Type": "Dragon",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Grassmammoth_Earthquake",
+            "Name": "대지 강타",
+            "Type": "Ground",
+            "Power": 100,
+            "Exclusive": ["Grassmammoth", "Grassmammoth_Ice"]
+        },
+        {
+            "CodeName": "EPalWazaID::ThunderBall",
+            "Name": "번개 구체",
+            "Type": "Electric",
+            "Power": 50
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_CaptainPenguin_BodySlide",
+            "Name": "캡틴 슬라이딩",
+            "Type": "Ice",
+            "Power": 70,
+            "Exclusive": ["CaptainPenguin"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Garm_Bite",
+            "Name": "와일드 팽",
+            "Type": "Neutral",
+            "Power": 45,
+            "Exclusive": ["Garm"]
+        },
+        {
+            "CodeName": "EPalWazaID::FireBall",
+            "Name": "화염구",
+            "Type": "Fire",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::FlareArrow",
+            "Name": "불화살",
+            "Type": "Fire",
+            "Power": 55
+        },
+        {
+            "CodeName": "EPalWazaID::FlareTornado",
+            "Name": "화염 폭풍",
+            "Type": "Fire",
+            "Power": 80
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Alpaca_Tackle",
+            "Name": "푹신 태클",
+            "Type": "Neutral",
+            "Power": 40,
+            "Exclusive": ["Alpaca"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_RobinHood_BowSnipe",
+            "Name": "스나이핑 샷",
+            "Type": "Grass",
+            "Power": 65,
+            "Exclusive": ["RobinHood", "RobinHood_Ground"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Anubis_Tackle",
+            "Name": "포스 드라이브",
+            "Type": "Ground",
+            "Power": 120,
+            "Exclusive": ["Anubis"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_IceDeer_IceHorn",
+            "Name": "얼음뿔 돌진",
+            "Type": "Ice",
+            "Power": 65,
+            "Exclusive": ["IceDeer"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_VolcanicMonster_Ice_IceAttack",
+            "Name": "서리 폭발",
+            "Type": "Ice",
+            "Power": 100,
+            "Exclusive": ["VolcanicMonster_Ice"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Eagle_GlidingNail",
+            "Name": "활공 할퀴기",
+            "Type": "Neutral",
+            "Power": 60,
+            "Exclusive": ["Eagle"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_HerculesBeetle_BeetleTackle",
+            "Name": "거대한 뿔",
+            "Type": "Ground",
+            "Power": 75,
+            "Exclusive": ["HerculesBeetle"]
+        },
+        {
+            "CodeName": "EPalWazaID::GrassTornado",
+            "Name": "초록 폭풍",
+            "Type": "Grass",
+            "Power": 80
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Gorilla_GroundPunch",
+            "Name": "고릴라운드 콤보",
+            "Type": "Neutral",
+            "Power": 85,
+            "Exclusive": ["Gorilla"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Anubis_GroundPunch",
+            "Name": "그라운드 스매셔",
+            "Type": "Ground",
+            "Power": 140,
+            "Exclusive": ["Anubis"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Baphomet_SwallowKite",
+            "Name": "지옥불 할퀴기",
+            "Type": "Fire",
+            "Power": 70,
+            "Exclusive": ["Baphomet", "Baphomet_Dark"]
+        },
+        {
+            "CodeName": "EPalWazaID::AquaJet",
+            "Name": "워터 제트",
+            "Type": "Water",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::HydroPump",
+            "Name": "하이드로 스트림",
+            "Type": "Water",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Ronin_Iai",
+            "Name": "발도술",
+            "Type": "Fire",
+            "Power": 65,
+            "Exclusive": ["Ronin"]
+        },
+        {
+            "CodeName": "EPalWazaID::IceMissile",
+            "Name": "얼음 미사일",
+            "Type": "Ice",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::BlizzardLance",
+            "Name": "빙산",
+            "Type": "Ice",
+            "Power": 70
+        },
+        {
+            "CodeName": "EPalWazaID::IceBlade",
+            "Name": "얼음 칼날",
+            "Type": "Ice",
+            "Power": 55
+        },
+        {
+            "CodeName": "EPalWazaID::FireBlast",
+            "Name": "파이어 샷",
+            "Type": "Fire",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::Flamethrower",
+            "Name": "파이어 브레스",
+            "Type": "Fire",
+            "Power": 70
+        },
+        {
+            "CodeName": "EPalWazaID::Inferno",
+            "Name": "인페르노",
+            "Type": "Fire",
+            "Power": 120
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_FireKirin_Tackle",
+            "Name": "화염 돌격",
+            "Type": "Fire",
+            "Power": 85,
+            "Exclusive": ["FireKirin"]
+        },
+        {
+            "CodeName": "EPalWazaID::SelfDestruct",
+            "Name": "자폭",
+            "Type": "Neutral",
+            "Power": 230
+        },
+        {
+            "CodeName": "EPalWazaID::Intimidate",
+            "Name": "위협",
+            "Type": "Neutral",
+            "Power": 1
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Werewolf_Scratch",
+            "Name": "점프 할퀴기",
+            "Type": "Dark",
+            "Power": 55,
+            "Exclusive": ["Werewolf"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_ThunderDragonMan_ThunderSwordAttack",
+            "Name": "케라우노스",
+            "Type": "Electric",
+            "Power": 100,
+            "Exclusive": ["ThunderDragonMan", "GYM_ThunderDragonMan"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_KingAlpaca_BodyPress",
+            "Name": "킹 프레스",
+            "Type": "Neutral",
+            "Power": 100,
+            "Exclusive": ["KingAlpaca", "KingAlpaca_Ice"]
+        },
+        {
+            "CodeName": "EPalWazaID::Thunderbolt",
+            "Name": "전기 볼트",
+            "Type": "Electric",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_ElecPanda_ElecScratch",
+            "Name": "전기 할퀴기",
+            "Type": "Electric",
+            "Power": 90,
+            "Exclusive": ["ElecPanda", "GYM_ElecPanda"]
+        },
+        {
+            "CodeName": "EPalWazaID::ThunderRain",
+            "Name": "천둥비",
+            "Type": "Electric",
+            "Power": 1
+        },
+        {
+            "CodeName": "EPalWazaID::LineThunder",
+            "Name": "라인 썬더",
+            "Type": "Electric",
+            "Power": 75
+        },
+        {
+            "CodeName": "EPalWazaID::LightningStrike",
+            "Name": "번개 일격",
+            "Type": "Electric",
+            "Power": 120
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Kirin_LightningTackle",
+            "Name": "신출귀몰",
+            "Type": "Electric",
+            "Power": 100,
+            "Exclusive": ["Kirin"]
+        },
+        {
+            "CodeName": "EPalWazaID::LockonLaser",
+            "Name": "고정식 레이저",
+            "Type": "Electric",
+            "Power": 70
+        },
+        {
+            "CodeName": "EPalWazaID::SelfExplosion",
+            "Name": "메가톤 자폭",
+            "Type": "Neutral",
+            "Power": 500
+        },
+        {
+            "CodeName": "EPalWazaID::SpecialCutter",
+            "Name": "멀티 커터",
+            "Type": "Grass",
+            "Power": 60
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_SakuraSaurus_SideTackle",
+            "Name": "몸통 박치기",
+            "Type": "Neutral",
+            "Power": 80,
+            "Exclusive": ["SakuraSaurus", "SakuraSaurus_Water"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_FairyDragon_FairyTornado",
+            "Name": "신비의 허리케인",
+            "Type": "Dragon",
+            "Power": 70,
+            "Exclusive": ["FairyDragon", "FairyDragon_Water"]
+        },
+        {
+            "CodeName": "EPalWazaID::ShadowBall",
+            "Name": "악몽의 구체",
+            "Type": "Dark",
+            "Power": 100
+        },
+        {
+            "CodeName": "None",
+            "Name": "None",
+            "Type": "None",
+            "Power": 0
+        },
+        {
+            "CodeName": "EPalWazaID::HyperBeam",
+            "Name": "팰 폭발",
+            "Type": "Neutral",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_DarkCrow_TelePoke",
+            "Name": "팬텀의 공격",
+            "Type": "Dark",
+            "Power": 55,
+            "Exclusive": ["DarkCrow"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Horus_FlareBird",
+            "Name": "봉황의 비행",
+            "Type": "Fire",
+            "Power": 135,
+            "Exclusive": ["Horus", "GYM_Horus"]
+        },
+        {
+            "CodeName": "EPalWazaID::ThunderFunnel",
+            "Name": "플라즈마 토네이도",
+            "Type": "Electric",
+            "Power": 65
+        },
+        {
+            "CodeName": "EPalWazaID::PoisonShot",
+            "Name": "독 사격",
+            "Type": "Dark",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::PoisonFog",
+            "Name": "독 안개",
+            "Type": "Dark",
+            "Power": 0
+        },
+        {
+            "CodeName": "EPalWazaID::PowerBall",
+            "Name": "파워 폭탄",
+            "Type": "Neutral",
+            "Power": 70
+        },
+        {
+            "CodeName": "EPalWazaID::PowerShot",
+            "Name": "파워 샷",
+            "Type": "Neutral",
+            "Power": 35
+        },
+        {
+            "CodeName": "EPalWazaID::Psychokinesis",
+            "Name": "사이코 그래비티",
+            "Type": "Dark",
+            "Power": 110
+        },
+        {
+            "CodeName": "EPalWazaID::Human_Punch",
+            "Name": "펀치",
+            "Type": "Neutral",
+            "Power": 12
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_PinkCat_CatPunch",
+            "Name": "냥냥 펀치",
+            "Type": "Neutral",
+            "Power": 40,
+            "Exclusive": ["PinkCat"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Boar_Tackle",
+            "Name": "멧돼지 돌진",
+            "Type": "Neutral",
+            "Power": 55,
+            "Exclusive": ["Boar"]
+        },
+        {
+            "CodeName": "EPalWazaID::RockLance",
+            "Name": "바위 창",
+            "Type": "Ground",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_SheepBall_Roll",
+            "Name": "데굴데굴 솜사탕",
+            "Type": "Neutral",
+            "Power": 35,
+            "Exclusive": ["Sheepball"]
+        },
+        {
+            "CodeName": "EPalWazaID::MudShot",
+            "Name": "모래 돌풍",
+            "Type": "Ground",
+            "Power": 40
+        },
+        {
+            "CodeName": "EPalWazaID::SandTornado",
+            "Name": "모래 폭풍",
+            "Type": "Ground",
+            "Power": 80
+        },
+        {
+            "CodeName": "EPalWazaID::SeedMachinegun",
+            "Name": "씨앗 기관총",
+            "Type": "Grass",
+            "Power": 50
+        },
+        {
+            "CodeName": "EPalWazaID::SeedMine",
+            "Name": "씨앗 지뢰",
+            "Type": "Grass",
+            "Power": 65
+        },
+        {
+            "CodeName": "EPalWazaID::DarkWave",
+            "Name": "그림자 폭발",
+            "Type": "Dark",
+            "Power": 55
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_DrillGame_ShellAttack",
+            "Name": "쉘 스핀",
+            "Type": "Ground",
+            "Power": 65,
+            "Exclusive": ["DrillGame"]
+        },
+        {
+            "CodeName": "EPalWazaID::ElecWave",
+            "Name": "전기 파장",
+            "Type": "Electric",
+            "Power": 40
+        },
+        {
+            "CodeName": "EPalWazaID::SolarBeam",
+            "Name": "태양 폭발",
+            "Type": "Grass",
+            "Power": 150
+        },
+        {
+            "CodeName": "EPalWazaID::SpreadPulse",
+            "Name": "스파크 샷",
+            "Type": "Electric",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_SaintCentaur_OneSpearRushes",
+            "Name": "창기병 돌격",
+            "Type": "Neutral",
+            "Power": 120,
+            "Exclusive": ["SaintCentaur"]
+        },
+        {
+            "CodeName": "EPalWazaID::RootAttack",
+            "Name": "가시덩굴",
+            "Type": "Grass",
+            "Power": 95
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_QueenBee_SpinLance",
+            "Name": "회전 창",
+            "Type": "Grass",
+            "Power": 70,
+            "Exclusive": ["Queenbee"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_Anubis_LowRoundKick",
+            "Name": "스핀 레그 러쉬",
+            "Type": "Ground",
+            "Power": 100,
+            "Exclusive": ["Anubis"]
+        },
+        {
+            "CodeName": "EPalWazaID::FireSeed",
+            "Name": "스플릿 파이어",
+            "Type": "Fire",
+            "Power": 45
+        },
+        {
+            "CodeName": "EPalWazaID::GhostFlame",
+            "Name": "유령의 불꽃",
+            "Type": "Dark",
+            "Power": 75
+        },
+        {
+            "CodeName": "EPalWazaID::StoneShotgun",
+            "Name": "바위 폭발",
+            "Type": "Ground",
+            "Power": 55
+        },
+        {
+            "CodeName": "EPalWazaID::ThrowRock",
+            "Name": "바위 대포",
+            "Type": "Ground",
+            "Power": 70
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_BluePlatypus_Toboggan",
+            "Name": "서핑 태클",
+            "Type": "Water",
+            "Power": 0,
+            "Exclusive": ["BluePlatypus"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_HawkBird_Storm",
+            "Name": "토네이도 어택",
+            "Type": "Neutral",
+            "Power": 65,
+            "Exclusive": ["HawkBird"]
+        },
+        {
+            "CodeName": "EPalWazaID::ThreeThunder",
+            "Name": "트라이 썬더",
+            "Type": "Electric",
+            "Power": 90
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_BlackCentaur_TwoSpearRushes",
+            "Name": "쌍창 돌격",
+            "Type": "Dark",
+            "Power": 120,
+            "Exclusive": ["BlackCentaur"]
+        },
+        {
+            "CodeName": "EPalWazaID::Unique_VolcanicMonster_MagmaAttack",
+            "Name": "화산 폭발",
+            "Type": "Fire",
+            "Power": 100,
+            "Exclusive": ["VolcanicMonster"]
+        },
+        {
+            "CodeName": "EPalWazaID::WindCutter",
+            "Name": "바람의 칼날",
+            "Type": "Grass",
+            "Power": 30
+        },
+        {
+            "CodeName": "EPalWazaID::WaterWave",
+            "Name": "en Text",
+            "Type": "",
+            "Power": 0
+        }
+    ]
+}
