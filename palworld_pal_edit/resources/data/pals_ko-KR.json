@@ -2319,7 +2319,7 @@
         },
         {
             "CodeName": "IceDeer",
-            "Name": "얼음사슴(마호)",
+            "Name": "얼음 사슴 (마호)",
             "Type": [
                 "Ice"
             ],
@@ -5062,7 +5062,7 @@
         },
         {
             "CodeName": "GYM_ThunderDragonMan",
-            "Name": "Axel & Orserk",
+            "Name": "액슬&전룡맨",
             "Type": [
                 "Dragon",
                 "Electric"
@@ -5072,7 +5072,7 @@
         },
         {
             "CodeName": "GYM_LilyQueen",
-            "Name": "Lily & Lyleen",
+            "Name": "릴리&릴린",
             "Type": [
                 "Grass"
             ],
@@ -5081,7 +5081,7 @@
         },
         {
             "CodeName": "GYM_Horus",
-            "Name": "Marus & Faleris",
+            "Name": "마커스&호루스",
             "Type": [
                 "Fire"
             ],
@@ -5090,7 +5090,7 @@
         },
         {
             "CodeName": "GYM_BlackGriffon",
-            "Name": "Victor & Shadowbeak",
+            "Name": "빅터&제노그리프",
             "Type": [
                 "Dark"
             ],
@@ -5099,7 +5099,7 @@
         },
         {
             "CodeName": "GYM_ElecPanda",
-            "Name": "Zoe & Grizzbolt",
+            "Name": "조이&일렉판다",
             "Type": [
                 "Electric"
             ],
@@ -5117,7 +5117,7 @@
         },
         {
             "CodeName": "FireCult_FlameThrower",
-            "Name": "영원한 불꽃의 동지의 순교자",
+            "Name": "영원한 불꽃의 동지 순교자",
             "Type": [
                 "None"
             ],
@@ -5126,7 +5126,7 @@
         },
         {
             "CodeName": "FireCult_Rifle",
-            "Name": "영원한 불꽃의 동지의 Rifleman",
+            "Name": "영원한 불꽃의 동지 순교자 (Rifle)",
             "Type": [
                 "None"
             ],
@@ -5135,7 +5135,7 @@
         },
         {
             "CodeName": "Male_Soldier01",
-            "Name": "Burly Merc",
+            "Name": "억센 용병",
             "Type": [
                 "None"
             ],
@@ -5144,7 +5144,7 @@
         },
         {
             "CodeName": "Female_Soldier01",
-            "Name": "Expedition Survivor",
+            "Name": "탐험대의 생존자",
             "Type": [
                 "None"
             ],
@@ -5153,7 +5153,7 @@
         },
         {
             "CodeName": "Believer_CrossBow",
-            "Name": "팰 애호 단체 Devout",
+            "Name": "팰 애호 단체 신자 (CrossBow)",
             "Type": [
                 "None"
             ],
@@ -5162,7 +5162,7 @@
         },
         {
             "CodeName": "Believer_Bat",
-            "Name": "팰 애호 단체 Thug",
+            "Name": "팰 애호 단체 신자 (Bat)",
             "Type": [
                 "None"
             ],
@@ -5171,7 +5171,7 @@
         },
         {
             "CodeName": "Male_Scientist01_LaserRifle",
-            "Name": "유전자 연구 부대 Executioner",
+            "Name": "유전자 연구 부대 실행반",
             "Type": [
                 "None"
             ],
@@ -5189,7 +5189,7 @@
         },
         {
             "CodeName": "Police_Handgun",
-            "Name": "자경단 Guard",
+            "Name": "자경단 경비원",
             "Type": [
                 "None"
             ],
@@ -5198,7 +5198,7 @@
         },
         {
             "CodeName": "Hunter_Bat",
-            "Name": "밀렵단 Thug (Bat)",
+            "Name": "밀렵단 초짜 (Bat)",
             "Type": [
                 "None"
             ],
@@ -5207,7 +5207,7 @@
         },
         {
             "CodeName": "Hunter_FlameThrower",
-            "Name": "밀렵단 Cleaner",
+            "Name": "밀렵단 청소부",
             "Type": [
                 "None"
             ],
@@ -5216,7 +5216,7 @@
         },
         {
             "CodeName": "Hunter_Fat_GatlingGun",
-            "Name": "밀렵단 Crusher",
+            "Name": "밀렵단 분쇄자",
             "Type": [
                 "None"
             ],
@@ -5225,7 +5225,7 @@
         },
         {
             "CodeName": "Hunter_RocketLauncher",
-            "Name": "밀렵단 Elite",
+            "Name": "밀렵단 정예 대원",
             "Type": [
                 "None"
             ],
@@ -5234,7 +5234,7 @@
         },
         {
             "CodeName": "Hunter_Grenade",
-            "Name": "밀렵단 Grenadier",
+            "Name": "밀렵단 척탄병",
             "Type": [
                 "None"
             ],
@@ -5243,7 +5243,7 @@
         },
         {
             "CodeName": "Hunter_Rifle",
-            "Name": "밀렵단 Gunner",
+            "Name": "밀렵단 총잡이",
             "Type": [
                 "None"
             ],
@@ -5252,7 +5252,7 @@
         },
         {
             "CodeName": "Hunter_Shotgun",
-            "Name": "밀렵단 Hunter",
+            "Name": "밀렵단 사냥꾼",
             "Type": [
                 "None"
             ],
@@ -5261,7 +5261,7 @@
         },
         {
             "CodeName": "Hunter_Handgun",
-            "Name": "밀렵단 Thug (Handgun)",
+            "Name": "밀렵단 초짜 (Handgun)",
             "Type": [
                 "None"
             ],
@@ -5279,7 +5279,7 @@
         },
         {
             "CodeName": "SalesPerson_Desert",
-            "Name": "방랑 상인 (Desert)",
+            "Name": "방랑 상인 (사막)",
             "Type": [
                 "None"
             ],
@@ -5288,7 +5288,7 @@
         },
         {
             "CodeName": "SalesPerson_Desert2",
-            "Name": "방랑 상인 (Desert)",
+            "Name": "방랑 상인 (사막)",
             "Type": [
                 "None"
             ],
@@ -5297,7 +5297,7 @@
         },
         {
             "CodeName": "SalesPerson_Volcano",
-            "Name": "방랑 상인 (Volcano)",
+            "Name": "방랑 상인 (화산)",
             "Type": [
                 "None"
             ],
@@ -5306,7 +5306,7 @@
         },
         {
             "CodeName": "SalesPerson_Volcano2",
-            "Name": "방랑 상인 (Volcano)",
+            "Name": "방랑 상인 (화산)",
             "Type": [
                 "None"
             ],
@@ -5315,7 +5315,7 @@
         },
         {
             "CodeName": "Female_DesertPeople02",
-            "Name": "Female Villager",
+            "Name": "마을 사람 (여성)",
             "Type": [
                 "None"
             ],
@@ -5324,7 +5324,7 @@
         },
         {
             "CodeName": "Female_People02",
-            "Name": "Female Villager",
+            "Name": "마을 사람 (여성)",
             "Type": [
                 "None"
             ],
@@ -5333,7 +5333,7 @@
         },
         {
             "CodeName": "Female_People03",
-            "Name": "Female Villager",
+            "Name": "마을 사람 (여성)",
             "Type": [
                 "None"
             ],
@@ -5342,7 +5342,7 @@
         },
         {
             "CodeName": "Male_DesertPeople01",
-            "Name": "Male Villager",
+            "Name": "마을 사람 (남성)",
             "Type": [
                 "None"
             ],
@@ -5351,7 +5351,7 @@
         },
         {
             "CodeName": "Male_People02",
-            "Name": "Male Villager",
+            "Name": "마을 사람 (남성)",
             "Type": [
                 "None"
             ],
@@ -5360,7 +5360,7 @@
         },
         {
             "CodeName": "Male_People03",
-            "Name": "Male Villager",
+            "Name": "마을 사람 (남성)",
             "Type": [
                 "None"
             ],
@@ -5369,7 +5369,7 @@
         },
         {
             "CodeName": "MobuCitizen",
-            "Name": "Female Islander",
+            "Name": "섬 주민 (여성)",
             "Type": [
                 "None"
             ],
@@ -5378,7 +5378,7 @@
         },
         {
             "CodeName": "MobuCitizen_Male",
-            "Name": "Male Islander",
+            "Name": "섬 주민 (남성)",
             "Type": [
                 "None"
             ],
@@ -5387,7 +5387,7 @@
         },
         {
             "CodeName": "MobuCitizen",
-            "Name": "Islander",
+            "Name": "섬 주민",
             "Type": [
                 "None"
             ],
@@ -5396,7 +5396,7 @@
         },
         {
             "CodeName": "Guard_Rifle",
-            "Name": "Guard",
+            "Name": "위병 (Rifle)",
             "Type": [
                 "None"
             ],
@@ -5405,7 +5405,7 @@
         },
         {
             "CodeName": "Guard_Shotgun",
-            "Name": "자경단 Goody Two-Shoes",
+            "Name": "위병 (Shotgun)",
             "Type": [
                 "None"
             ],
@@ -5414,7 +5414,7 @@
         },
         {
             "CodeName": "PalDealer_Desert",
-            "Name": "팰 상인 (Desert)",
+            "Name": "팰 상인 (사막)",
             "Type": [
                 "None"
             ],
@@ -5423,7 +5423,7 @@
         },
         {
             "CodeName": "PalDealer_Volcano",
-            "Name": "팰 상인 (Volcano)",
+            "Name": "팰 상인 (화산)",
             "Type": [
                 "None"
             ],
@@ -5432,7 +5432,7 @@
         },
         {
             "CodeName": "Police_Rifle",
-            "Name": "자경단 Infantry",
+            "Name": "자경단 소총수",
             "Type": [
                 "None"
             ],
@@ -5441,7 +5441,7 @@
         },
         {
             "CodeName": "Police_Shotgun",
-            "Name": "자경단 Elite",
+            "Name": "자경단 정예 대원",
             "Type": [
                 "None"
             ],
