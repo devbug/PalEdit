@@ -35,8 +35,8 @@
         ]
     },
     "EPalWazaID::SelfDestruct_Bee": {
-        "Type": "Neutral",
-        "Power": 200,
+        "Type": "Grass",
+        "Power": 250,
         "Exclusive": [
             "SoldierBee"
         ]
@@ -86,14 +86,14 @@
     },
     "EPalWazaID::Unique_FengyunDeeper_CloudTempest": {
         "Type": "Neutral",
-        "Power": 0,
+        "Power": 90,
         "Exclusive": [
             "FengyunDeeper"
         ]
     },
     "EPalWazaID::CrossThunder": {
         "Type": "Electric",
-        "Power": 0
+        "Power": 1
     },
     "EPalWazaID::Unique_GrassPanda_MusclePunch": {
         "Type": "Grass",
@@ -138,7 +138,7 @@
     },
     "EPalWazaID::DarkLegion": {
         "Type": "Dark",
-        "Power": 0
+        "Power": 160
     },
     "EPalWazaID::Unique_BlackGriffon_TackleLaser": {
         "Type": "Dark",
@@ -326,11 +326,11 @@
     },
     "EPalWazaID::SelfDestruct": {
         "Type": "Neutral",
-        "Power": 180
+        "Power": 230
     },
     "EPalWazaID::Intimidate": {
         "Type": "Neutral",
-        "Power": 0
+        "Power": 1
     },
     "EPalWazaID::Unique_Werewolf_Scratch": {
         "Type": "Dark",
@@ -357,7 +357,7 @@
     },
     "EPalWazaID::Thunderbolt": {
         "Type": "Electric",
-        "Power": 0
+        "Power": 150
     },
     "EPalWazaID::Unique_ElecPanda_ElecScratch": {
         "Type": "Electric",
@@ -369,7 +369,7 @@
     },
     "EPalWazaID::ThunderRain": {
         "Type": "Electric",
-        "Power": 0
+        "Power": 1
     },
     "EPalWazaID::LineThunder": {
         "Type": "Electric",
@@ -377,26 +377,26 @@
     },
     "EPalWazaID::LightningStrike": {
         "Type": "Electric",
-        "Power": 0
+        "Power": 120
     },
     "EPalWazaID::Unique_Kirin_LightningTackle": {
         "Type": "Electric",
-        "Power": 0,
+        "Power": 100,
         "Exclusive": [
             "Kirin"
         ]
     },
     "EPalWazaID::LockonLaser": {
         "Type": "Electric",
-        "Power": 0
+        "Power": 70
     },
     "EPalWazaID::SelfExplosion": {
         "Type": "Neutral",
-        "Power": 0
+        "Power": 500
     },
     "EPalWazaID::SpecialCutter": {
         "Type": "Grass",
-        "Power": 0
+        "Power": 60
     },
     "EPalWazaID::Unique_SakuraSaurus_SideTackle": {
         "Type": "Neutral",
@@ -463,11 +463,11 @@
     },
     "EPalWazaID::Psychokinesis": {
         "Type": "Dark",
-        "Power": 0
+        "Power": 110
     },
     "EPalWazaID::Human_Punch": {
         "Type": "Neutral",
-        "Power": 0
+        "Power": 12
     },
     "EPalWazaID::Unique_PinkCat_CatPunch": {
         "Type": "Neutral",
@@ -526,7 +526,7 @@
         "Power": 40
     },
     "EPalWazaID::SolarBeam": {
-        "Type": "Electric",
+        "Type": "Grass",
         "Power": 150
     },
     "EPalWazaID::SpreadPulse": {
