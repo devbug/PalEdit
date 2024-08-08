@@ -69,9 +69,59 @@ xpthresholds = [
     1550533,
     1861323,
     2234286,
-    2681857
+    2681857,
+    3218908,
+    3863445,
+    4636905,
+    5565072,
+    6678888,
+    8015483,
+    9619412,
+    11544143,
+    13853835,
+    16625481,
+    19951472,
+    23942677,
+    28732138,
+    34479507,
+    41376365,
+    49652610,
+    59584120,
+    71501947,
+    85803355,
+    102965061,
+    123559123,
+    148272013,
+    177927497,
+    213514093,
+    256218024,
+    307462756,
+    368956450,
+    442748899,
+    531299853,
+    637561014,
+    765074422,
+    918090527,
+    1101709869,
+    1322053095,
+    1586464981,
+    1903759260,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647,
+    2147483647
 ]
-if len(xpthresholds) < 50:
+if len(xpthresholds) < 55:
     print("Something is wrong with the thresholds")
 
 
@@ -94,7 +144,7 @@ class PalObject:
         self._suits = suits
 
     def GetName(self):
-        return self._name
+        return PalSpecies[self._code_name]._name # Update PalEdit.listdisplay
 
     def GetCodeName(self):
         return self._code_name
@@ -106,7 +156,10 @@ class PalObject:
         if self._img == None:
             n = self.GetCodeName() if not self._human else "Human"
             # self._img = ImageTk.PhotoImage(Image.open(module_dir+f'/resources/{n}.png').resize((240,240)))
-            self._img = tkinter.PhotoImage(file=f'{module_dir}/resources/pals/{n}.png')
+            try:
+                self._img = tkinter.PhotoImage(file=f'{module_dir}/resources/pals/{n}.png')
+            except:
+                self._img = tkinter.PhotoImage(file=f'{module_dir}/resources/pals/#ERROR.png')
         return self._img
 
     def GetPrimary(self):
@@ -377,7 +430,10 @@ class PalEntity:
         self._obj["Rank_CraftSpeed"]["value"] = value
 
     def GetMaxHP(self):
-        return self._obj['MaxHP']['value']['Value']['value']
+        del self._obj['MaxHP']
+        return # We dont need to get this anymore; its gone
+    
+        #return self._obj['MaxHP']['value']['Value']['value']
 
     def CalculateIngameStats(self):
         LEVEL = self.GetLevel()
@@ -394,14 +450,23 @@ class PalEntity:
         HP_STAT = math.floor(500 + 5 * LEVEL + HP_SCALE * 0.5 * LEVEL * (1 + HP_IV))
         HP_STAT = math.floor(HP_STAT * (1 + HP_BONUS) * (1 + HP_SOUL) * (1 + HP_RANK))
 
-        AT_SCALE = SCALING["ATK"]
-        AT_IV = self.GetAttackRanged() * 0.3 / 100
+        AT_SCALE = SCALING["PHY"]
+        AT_IV = self.GetAttackMelee() * 0.3 / 100
         AT_SOUL = self.GetRankAttack() * 0.03
         AT_RANK = (self.GetRank() - 1) * 0.05
         AT_BONUS = 0
 
         AT_STAT = math.floor(100 + AT_SCALE * 0.075 * LEVEL * (1 + AT_IV))
         AT_STAT = math.floor(AT_STAT * (1 + AT_BONUS) * (1 + AT_SOUL) * (1 + AT_RANK))
+
+        MT_SCALE = SCALING["MAG"]
+        MT_IV = self.GetAttackRanged() * 0.3 / 100
+        MT_SOUL = self.GetRankAttack() * 0.03
+        MT_RANK = (self.GetRank() - 1) * 0.05
+        MT_BONUS = 0
+
+        MT_STAT = math.floor(100 + MT_SCALE * 0.075 * LEVEL * (1 + MT_IV))
+        MT_STAT = math.floor(MT_STAT * (1 + MT_BONUS) * (1 + MT_SOUL) * (1 + MT_RANK))
 
         DF_SCALE = SCALING["DEF"]
         DF_IV = self.GetDefence() * 0.3 / 100
@@ -411,10 +476,12 @@ class PalEntity:
 
         DF_STAT = math.floor(50 + DF_SCALE * 0.075 * LEVEL * (1 + DF_IV))
         DF_STAT = math.floor(DF_STAT * (1 + DF_BONUS) * (1 + DF_SOUL) * (1 + DF_RANK))
-        return {"HP": HP_STAT, "ATK": AT_STAT, "DEF": DF_STAT}
+        return {"HP": HP_STAT, "PHY": AT_STAT, "MAG": MT_STAT, "DEF": DF_STAT}
 
 
     def UpdateMaxHP(self):
+        return #this seems to be handled by the game itself now; impressive
+        
         if self.IsTower() or self.IsHuman():
             return
         new_hp = self.CalculateIngameStats()["HP"]
@@ -579,6 +646,7 @@ class PalEntity:
                 self._learntMoves.remove(p)
 
     def StripAttack(self, name):
+        name = name.replace("⚔","").replace("🏹","")
         strip = False
         if not name in self._equipMoves:
             if not name in PalLearnSet[self.GetCodeName()]:
@@ -776,7 +844,7 @@ class PalPlayerEntity:
         self._data = data
         self._obj = self._data['properties']['SaveData']['value']
         self._record = self._obj['RecordData']['value']
-        self._inventoryinfo = self._obj['inventoryInfo']['value']
+        self._inventoryinfo = self._obj['InventoryInfo']['value']
 
     def GetPlayerGuid(self):
         return self._obj['PlayerUId']['value']
@@ -831,40 +899,39 @@ PalSpecies = {}
 PalLearnSet = {}
 
 
-def LoadPals(lang=None):
+def LoadPals(lang="en-GB"):
     global PalSpecies, PalLearnSet
 
-    if lang is not None and not os.path.exists("%s/resources/data/pals%s.json" % (module_dir, "_" + lang)):
-        lang = None
+    if lang == "":
+        lang = "en-GB"
 
-    PalCodeMapping = {}
-    with open("%s/resources/data/pals.json" % (module_dir), "r", encoding="utf8") as palfile:
-        pals = json.load(palfile)
-        PalCodeMapping = {pal['CodeName']: pal['Name'] for pal in pals['values']}
-    with open("%s/resources/data/pals%s.json" % (module_dir, "_" + lang if lang is not None else ""), "r",
-              encoding="utf8") as palfile:
-        PalSpecies = {}
-        PalLearnSet = {}
-        for i in json.loads(palfile.read())["values"]:
-            # try:
-            #     img = Image.open(module_dir + f'/resources/{i["Name"]}.png').resize((240, 240))
-            #     with open(module_dir + f'/resources/pals/{i["CodeName"]}.png', 'wb') as f:
-            #         img.save(f)
-            # except Exception as e:
-            #     traceback.print_exception(e)
-            h = "Human" in i
-            t = "Tower" in i
-            p = i["Type"][0]
-            s = "None"
-            if len(i["Type"]) == 2:
-                s = i["Type"][1]
-            PalSpecies[i["CodeName"]] = PalObject(i["Name"], i["CodeName"], p, s, h, t,
-                                                  i["Scaling"] if "Scaling" in i else None,
-                                                  i["Suitabilities"] if "Suitabilities" in i else {})
-            if t:
-                PalSpecies[i["CodeName"]]._suits = PalSpecies[i["CodeName"].replace("GYM_", "")]._suits
-                PalSpecies[i["CodeName"]]._scaling = PalSpecies[i["CodeName"].replace("GYM_", "")]._scaling
-            PalLearnSet[i["CodeName"]] = i["Moveset"] if not t else PalLearnSet[i["CodeName"].replace("GYM_", "")]
+    if lang is not None and not os.path.exists(f"%s/resources/data/{lang}/pals.json" % (module_dir)):
+        lang = "en-GB"
+    
+    with open("%s/resources/data/pals.json" % (module_dir), "r",
+              encoding="utf8") as datafile:
+        with open(f"%s/resources/data/{lang}/pals.json" % (module_dir), "r",
+                  encoding="utf8") as palfile:
+            PalSpecies = {}
+            PalLearnSet = {}
+
+            d = json.loads(datafile.read())
+            l = json.loads(palfile.read())
+            
+            for i in d["values"]:
+                h = "Human" in i
+                t = "Tower" in i
+                p = i["Type"][0]
+                s = "None"
+                if len(i["Type"]) == 2:
+                    s = i["Type"][1]
+                PalSpecies[i["CodeName"]] = PalObject(l[i["CodeName"]], i["CodeName"], p, s, h, t,
+                                                      i["Scaling"] if "Scaling" in i else None,
+                                                      i["Suitabilities"] if "Suitabilities" in i else {})
+                if t:
+                    PalSpecies[i["CodeName"]]._suits = PalSpecies[i["CodeName"].replace("GYM_", "")]._suits
+                    PalSpecies[i["CodeName"]]._scaling = PalSpecies[i["CodeName"].replace("GYM_", "")]._scaling
+                PalLearnSet[i["CodeName"]] = i["Moveset"] if not t else PalLearnSet[i["CodeName"].replace("GYM_", "")]
 
 
 LoadPals()
@@ -900,8 +967,8 @@ def LoadPassives(lang="en-GB"):
                 PalPassives[code] = l[code]["Name"]
                 PassiveDescriptions[code] = l[code]["Description"]
                 PassiveRating[code] = d[i]["Rating"]
+                #print(i, l[code]["Name"])
             PalPassives = dict(sorted(PalPassives.items()))
-
 
 LoadPassives()
 
@@ -909,11 +976,12 @@ LoadPassives()
 PalAttacks = {}
 AttackPower = {}
 AttackTypes = {}
+AttackCats = {}
 SkillExclusivity = {}
 
 
 def LoadAttacks(lang="en-GB"):
-    global PalAttacks, AttackPower, AttackTypes, SkillExclusivity
+    global PalAttacks, AttackPower, AttackTypes, AttackCats, SkillExclusivity
 
     if lang == "":
         lang = "en-GB"
@@ -928,6 +996,7 @@ def LoadAttacks(lang="en-GB"):
             PalAttacks = {}
             AttackPower = {}
             AttackTypes = {}
+            AttackCats = {}
             SkillExclusivity = {}
 
             d = json.loads(datafile.read())
@@ -940,6 +1009,7 @@ def LoadAttacks(lang="en-GB"):
                 PalAttacks[code] = l[code]
                 AttackPower[code] = d[i]["Power"]
                 AttackTypes[code] = d[i]["Type"]
+                AttackCats[code] = d[i]["Category"]
                 if "Exclusive" in d[i]:
                     SkillExclusivity[code] = d[i]["Exclusive"]
                 else:
@@ -963,92 +1033,13 @@ def find(name):
     return "None"
 
 if __name__ == "__main__":
-    # Convert Pals -> Moveset from Name to CodeName for i18n
-    """with open("%s/resources/data/pals.json" % (module_dir), "r", encoding="utf-8") as f:
-        pals = json.load(f)
-        for pal in pals['values']:
-            if 'Moveset' in pal:
-                new_moveset = {}
-                for move_name in pal['Moveset']:
-                    move_id = pal['Moveset'][move_name]
-                    if find(move_name) != "None":
-                        new_moveset[find(move_name)] = move_id
-                    elif move_name in PalAttacks:
-                        new_moveset[move_name] = move_id
-                    else:
-                        print(f"Error: Invalid {move_name}")
-                pal['Moveset'] = new_moveset
+    # Debug algorithms go here
 
-    with open("%s/resources/data/pals.json" % (module_dir), "w", encoding="utf-8") as f:
-        json.dump(pals, f, indent=4)
-        """
-
-    with open(f"%s/resources/data/passives.json" % (module_dir), "r", encoding="utf-8") as f:
-        ps = json.load(f)
-        o = {}
-        for p in ps['values']:
-            o[p["CodeName"]] = {
-                    "Rating": p["Rating"],
-                }
-    with open(f"%s/resources/data/passives.json" % (module_dir), "w", encoding="utf-8") as f:
-        json.dump(o, f, indent=4, ensure_ascii=False)
+    #from PIL import ImageTk, Image
+    #Image.open(f'../assets/Bellanoir.png').resize((240, 240)).save(f"resources/pals/NightLady.png")
+    #Image.open(f'../assets/Bellanoir Libero.png').resize((240, 240)).save(f"resources/pals/NightLady_Dark.png")
     
-
-##
-##
-##    if True:
-##        import bs4 as bsoup
-##        import urllib.request as ureq
-##
-##
-##
-##        with open(module_dir+"/resources/data/pals.json", "r+", encoding="utf8") as palfile:
-##            p = json.loads(palfile.read())
-##            palfile.seek(0)
-##            for pal in p['values']:
-##                pal["Moveset"] = {}
-##                if not "Human" in pal and not "Tower" in pal:
-##                    n = pal["Name"].lower().replace(" ", "-")
-##                    headers = {'User-Agent': 'Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.0.7) Gecko/2009021910 Firefox/3.0.7'}
-##                    req = ureq.Request(f"http://palworld.gg/pal/{n}", None, headers)
-##                    src = ureq.urlopen(req)
-##                    soup = bsoup.BeautifulSoup(src, "lxml")
-##
-##                    con = soup.find_all("div", {"class": "active skills"})
-##                    if len(con) > 0:
-##                        for item in con[0].find_all("div", {"class": "item"}):
-##
-##                            name = item.find("div", {"class": "name"}).text
-##                            level = item.find("div", {"class": "level"})
-##
-##                            if not level == None:
-##                                level = int(level.text.replace("- Lv ", ""))
-##                                pal["Moveset"][name] = level
-##            json.dump(p, palfile, indent=4)
-##
-##
-##    if True:
-##
-##        codes = {}
-##        with open("data.txt", "r") as file:
-##            for line in file:
-##                l = line.replace("\t", " ").replace("\n", "")
-##                c, n = l.split(" ", 1)
-##                codes[n] = c
-##
-##        def sortStuff(e):
-##            return e["Name"]
-##        debugOutput.sort(key=sortStuff)
-##
-##        for i in debugOutput:
-##            if i["Name"] in codes:
-##                i["CodeName"] = codes[i["Name"]]
-##                codes.pop(i["Name"])
-##
-##        for i in codes:
-##            debugOutput.append({"CodeName": codes[i], "Name": i, "Type": "", "Power": 0})
-##        with open(module_dir+"/resources/data/attacks.json", "w", encoding="utf8") as attackfile:
-##            json.dump({"values": debugOutput}, attackfile, indent=4)
+    pass
 
 
 def RecieveLogger(l):

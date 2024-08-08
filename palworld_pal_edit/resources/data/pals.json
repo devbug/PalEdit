@@ -2,7 +2,6 @@
     "values": [
         {
             "CodeName": "Alpaca",
-            "Name": "Melpaca",
             "Type": [
                 "Neutral"
             ],
@@ -17,7 +16,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 75,
+                "PHY": 90,
+                "MAG": 75,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -38,7 +38,6 @@
         },
         {
             "CodeName": "AmaterasuWolf",
-            "Name": "Kitsun",
             "Type": [
                 "Fire"
             ],
@@ -53,7 +52,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 115,
+                "PHY": 70,
+                "MAG": 115,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -74,7 +74,6 @@
         },
         {
             "CodeName": "Anubis",
-            "Name": "Anubis",
             "Type": [
                 "Ground"
             ],
@@ -89,7 +88,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 130,
+                "PHY": 130,
+                "MAG": 130,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -110,7 +110,6 @@
         },
         {
             "CodeName": "Baphomet",
-            "Name": "Incineram",
             "Type": [
                 "Fire",
                 "Dark"
@@ -126,7 +125,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 100,
+                "PHY": 150,
+                "MAG": 100,
                 "DEF": 85
             },
             "Suitabilities": {
@@ -147,7 +147,6 @@
         },
         {
             "CodeName": "Baphomet_Dark",
-            "Name": "Incineram Noct",
             "Type": [
                 "Dark"
             ],
@@ -162,7 +161,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 105,
+                "PHY": 150,
+                "MAG": 105,
                 "DEF": 85
             },
             "Suitabilities": {
@@ -183,7 +183,6 @@
         },
         {
             "CodeName": "Bastet",
-            "Name": "Mau",
             "Type": [
                 "Dark"
             ],
@@ -198,7 +197,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 60,
+                "PHY": 70,
+                "MAG": 60,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -219,7 +219,6 @@
         },
         {
             "CodeName": "Bastet_Ice",
-            "Name": "Mau Cryst",
             "Type": [
                 "Ice"
             ],
@@ -234,7 +233,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 65,
+                "PHY": 70,
+                "MAG": 65,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -255,7 +255,6 @@
         },
         {
             "CodeName": "BerryGoat",
-            "Name": "Caprity",
             "Type": [
                 "Grass"
             ],
@@ -270,7 +269,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -291,7 +291,6 @@
         },
         {
             "CodeName": "BirdDragon",
-            "Name": "Vanwyrm",
             "Type": [
                 "Fire",
                 "Dark"
@@ -307,7 +306,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 115,
+                "PHY": 100,
+                "MAG": 115,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -328,7 +328,6 @@
         },
         {
             "CodeName": "BirdDragon_Ice",
-            "Name": "Vanwyrm Cryst",
             "Type": [
                 "Ice",
                 "Dark"
@@ -344,7 +343,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 120,
+                "PHY": 100,
+                "MAG": 120,
                 "DEF": 95
             },
             "Suitabilities": {
@@ -365,7 +365,6 @@
         },
         {
             "CodeName": "BlackCentaur",
-            "Name": "Necromus",
             "Type": [
                 "Dark"
             ],
@@ -380,8 +379,8 @@
             },
             "Scaling": {
                 "HP": 130,
-                "HP_BOSS": 260,
-                "ATK": 145,
+                "PHY": 100,
+                "MAG": 145,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -402,7 +401,6 @@
         },
         {
             "CodeName": "BlackGriffon",
-            "Name": "Shadowbeak",
             "Type": [
                 "Dark"
             ],
@@ -417,7 +415,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 120,
+                "PHY": 130,
+                "MAG": 120,
                 "DEF": 140
             },
             "Suitabilities": {
@@ -438,7 +437,6 @@
         },
         {
             "CodeName": "BlackMetalDragon",
-            "Name": "Astegon",
             "Type": [
                 "Dragon",
                 "Dark"
@@ -454,7 +452,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 125,
+                "PHY": 100,
+                "MAG": 125,
                 "DEF": 125
             },
             "Suitabilities": {
@@ -475,7 +474,6 @@
         },
         {
             "CodeName": "BlueDragon",
-            "Name": "Azurobe",
             "Type": [
                 "Water",
                 "Dragon"
@@ -491,7 +489,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 100,
+                "PHY": 70,
+                "MAG": 100,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -512,7 +511,6 @@
         },
         {
             "CodeName": "BluePlatypus",
-            "Name": "Fuack",
             "Type": [
                 "Water"
             ],
@@ -527,7 +525,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 80,
+                "PHY": 80,
+                "MAG": 80,
                 "DEF": 60
             },
             "Suitabilities": {
@@ -548,7 +547,6 @@
         },
         {
             "CodeName": "Boar",
-            "Name": "Rushoar",
             "Type": [
                 "Ground"
             ],
@@ -563,7 +561,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -584,7 +583,6 @@
         },
         {
             "CodeName": "CaptainPenguin",
-            "Name": "Penking",
             "Type": [
                 "Water",
                 "Ice"
@@ -600,7 +598,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 95,
+                "PHY": 70,
+                "MAG": 95,
                 "DEF": 95
             },
             "Suitabilities": {
@@ -621,7 +620,6 @@
         },
         {
             "CodeName": "Carbunclo",
-            "Name": "Lifmunk",
             "Type": [
                 "Grass"
             ],
@@ -636,7 +634,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -657,7 +656,6 @@
         },
         {
             "CodeName": "CatBat",
-            "Name": "Tombat",
             "Type": [
                 "Dark"
             ],
@@ -672,7 +670,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 95,
+                "PHY": 100,
+                "MAG": 95,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -693,7 +692,6 @@
         },
         {
             "CodeName": "CatMage",
-            "Name": "Katress",
             "Type": [
                 "Dark"
             ],
@@ -708,7 +706,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -729,7 +728,6 @@
         },
         {
             "CodeName": "CatVampire",
-            "Name": "Felbat",
             "Type": [
                 "Dark"
             ],
@@ -744,7 +742,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -765,7 +764,6 @@
         },
         {
             "CodeName": "ChickenPal",
-            "Name": "Chikipi",
             "Type": [
                 "Neutral"
             ],
@@ -780,7 +778,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 60,
+                "PHY": 70,
+                "MAG": 60,
                 "DEF": 60
             },
             "Suitabilities": {
@@ -801,7 +800,6 @@
         },
         {
             "CodeName": "ColorfulBird",
-            "Name": "Tocotoco",
             "Type": [
                 "Neutral"
             ],
@@ -816,7 +814,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 75,
+                "PHY": 80,
+                "MAG": 75,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -837,7 +836,6 @@
         },
         {
             "CodeName": "CowPal",
-            "Name": "Mozzarina",
             "Type": [
                 "Neutral"
             ],
@@ -852,7 +850,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 50,
+                "PHY": 100,
+                "MAG": 50,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -873,7 +872,6 @@
         },
         {
             "CodeName": "CuteButterfly",
-            "Name": "Cinnamoth",
             "Type": [
                 "Grass"
             ],
@@ -888,7 +886,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 80,
+                "PHY": 100,
+                "MAG": 80,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -909,7 +908,6 @@
         },
         {
             "CodeName": "CuteFox",
-            "Name": "Vixy",
             "Type": [
                 "Neutral"
             ],
@@ -924,7 +922,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -945,7 +944,6 @@
         },
         {
             "CodeName": "CuteMole",
-            "Name": "Fuddler",
             "Type": [
                 "Ground"
             ],
@@ -960,7 +958,8 @@
             },
             "Scaling": {
                 "HP": 65,
-                "ATK": 80,
+                "PHY": 100,
+                "MAG": 80,
                 "DEF": 50
             },
             "Suitabilities": {
@@ -981,7 +980,6 @@
         },
         {
             "CodeName": "DarkCrow",
-            "Name": "Cawgnito",
             "Type": [
                 "Dark"
             ],
@@ -996,7 +994,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 95,
+                "PHY": 80,
+                "MAG": 95,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -1017,7 +1016,6 @@
         },
         {
             "CodeName": "DarkScorpion",
-            "Name": "Menasting",
             "Type": [
                 "Dark",
                 "Ground"
@@ -1033,7 +1031,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 130
             },
             "Suitabilities": {
@@ -1054,7 +1053,6 @@
         },
         {
             "CodeName": "Deer",
-            "Name": "Eikthyrdeer",
             "Type": [
                 "Neutral"
             ],
@@ -1069,7 +1067,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 80,
+                "PHY": 70,
+                "MAG": 80,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -1090,7 +1089,6 @@
         },
         {
             "CodeName": "Deer_Ground",
-            "Name": "Eikthyrdeer Terra",
             "Type": [
                 "Ground"
             ],
@@ -1105,7 +1103,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 80,
+                "PHY": 70,
+                "MAG": 80,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -1126,7 +1125,6 @@
         },
         {
             "CodeName": "DreamDemon",
-            "Name": "Daedream",
             "Type": [
                 "Dark"
             ],
@@ -1141,7 +1139,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 75,
+                "PHY": 100,
+                "MAG": 75,
                 "DEF": 60
             },
             "Suitabilities": {
@@ -1162,7 +1161,6 @@
         },
         {
             "CodeName": "DrillGame",
-            "Name": "Digtoise",
             "Type": [
                 "Ground"
             ],
@@ -1177,7 +1175,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 95,
+                "PHY": 80,
+                "MAG": 95,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -1198,7 +1197,6 @@
         },
         {
             "CodeName": "Eagle",
-            "Name": "Galeclaw",
             "Type": [
                 "Neutral"
             ],
@@ -1213,7 +1211,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 85,
+                "PHY": 120,
+                "MAG": 85,
                 "DEF": 60
             },
             "Suitabilities": {
@@ -1234,7 +1233,6 @@
         },
         {
             "CodeName": "ElecCat",
-            "Name": "Sparkit",
             "Type": [
                 "Electric"
             ],
@@ -1249,7 +1247,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 75,
+                "PHY": 60,
+                "MAG": 75,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -1270,7 +1269,6 @@
         },
         {
             "CodeName": "ElecPanda",
-            "Name": "Grizzbolt",
             "Type": [
                 "Electric"
             ],
@@ -1285,7 +1283,8 @@
             },
             "Scaling": {
                 "HP": 105,
-                "ATK": 100,
+                "PHY": 120,
+                "MAG": 100,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -1306,7 +1305,6 @@
         },
         {
             "CodeName": "FairyDragon",
-            "Name": "Elphidran",
             "Type": [
                 "Dragon"
             ],
@@ -1321,7 +1319,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 80,
+                "PHY": 80,
+                "MAG": 80,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1342,7 +1341,6 @@
         },
         {
             "CodeName": "FairyDragon_Water",
-            "Name": "Elphidran Aqua",
             "Type": [
                 "Dragon",
                 "Water"
@@ -1358,7 +1356,8 @@
             },
             "Scaling": {
                 "HP": 115,
-                "ATK": 80,
+                "PHY": 80,
+                "MAG": 80,
                 "DEF": 95
             },
             "Suitabilities": {
@@ -1379,7 +1378,6 @@
         },
         {
             "CodeName": "FengyunDeeper",
-            "Name": "Fenglope",
             "Type": [
                 "Neutral"
             ],
@@ -1394,7 +1392,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 110,
+                "PHY": 110,
+                "MAG": 110,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1415,7 +1414,6 @@
         },
         {
             "CodeName": "FireKirin",
-            "Name": "Pyrin",
             "Type": [
                 "Fire"
             ],
@@ -1430,7 +1428,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 95,
+                "PHY": 110,
+                "MAG": 95,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1451,7 +1450,6 @@
         },
         {
             "CodeName": "FireKirin_Dark",
-            "Name": "Pyrin Noct",
             "Type": [
                 "Fire",
                 "Dark"
@@ -1467,7 +1465,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 95,
+                "PHY": 110,
+                "MAG": 95,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1488,7 +1487,6 @@
         },
         {
             "CodeName": "FlameBambi",
-            "Name": "Rooby",
             "Type": [
                 "Fire"
             ],
@@ -1503,7 +1501,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 75
             },
             "Suitabilities": {
@@ -1524,7 +1523,6 @@
         },
         {
             "CodeName": "FlameBuffalo",
-            "Name": "Arsox",
             "Type": [
                 "Fire"
             ],
@@ -1539,7 +1537,8 @@
             },
             "Scaling": {
                 "HP": 85,
-                "ATK": 95,
+                "PHY": 100,
+                "MAG": 95,
                 "DEF": 95
             },
             "Suitabilities": {
@@ -1560,7 +1559,6 @@
         },
         {
             "CodeName": "FlowerDinosaur",
-            "Name": "Dinossom",
             "Type": [
                 "Grass",
                 "Dragon"
@@ -1576,7 +1574,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 85,
+                "PHY": 90,
+                "MAG": 85,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1597,7 +1596,6 @@
         },
         {
             "CodeName": "FlowerDinosaur_Electric",
-            "Name": "Dinossom Lux",
             "Type": [
                 "Electric",
                 "Dragon"
@@ -1613,7 +1611,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 90,
+                "PHY": 90,
+                "MAG": 90,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1634,7 +1633,6 @@
         },
         {
             "CodeName": "FlowerDoll",
-            "Name": "Petallia",
             "Type": [
                 "Grass"
             ],
@@ -1649,7 +1647,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 95,
+                "PHY": 100,
+                "MAG": 95,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -1670,7 +1669,6 @@
         },
         {
             "CodeName": "FlowerRabbit",
-            "Name": "Flopie",
             "Type": [
                 "Grass"
             ],
@@ -1685,7 +1683,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 65,
+                "PHY": 100,
+                "MAG": 65,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -1706,7 +1705,6 @@
         },
         {
             "CodeName": "FlyingManta",
-            "Name": "Celaray",
             "Type": [
                 "Water"
             ],
@@ -1721,7 +1719,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -1742,7 +1741,6 @@
         },
         {
             "CodeName": "FoxMage",
-            "Name": "Wixen",
             "Type": [
                 "Fire"
             ],
@@ -1757,7 +1755,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 110,
+                "PHY": 50,
+                "MAG": 110,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -1778,7 +1777,6 @@
         },
         {
             "CodeName": "Ganesha",
-            "Name": "Teafant",
             "Type": [
                 "Water"
             ],
@@ -1793,7 +1791,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 60,
+                "PHY": 70,
+                "MAG": 60,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -1814,7 +1813,6 @@
         },
         {
             "CodeName": "Garm",
-            "Name": "Direhowl",
             "Type": [
                 "Neutral"
             ],
@@ -1829,7 +1827,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 90,
+                "PHY": 110,
+                "MAG": 90,
                 "DEF": 75
             },
             "Suitabilities": {
@@ -1850,7 +1849,6 @@
         },
         {
             "CodeName": "GhostBeast",
-            "Name": "Maraith",
             "Type": [
                 "Dark"
             ],
@@ -1865,7 +1863,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 105,
+                "PHY": 50,
+                "MAG": 105,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -1886,7 +1885,6 @@
         },
         {
             "CodeName": "Gorilla",
-            "Name": "Gorirat",
             "Type": [
                 "Neutral"
             ],
@@ -1901,7 +1899,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 95,
+                "PHY": 110,
+                "MAG": 95,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1922,7 +1921,6 @@
         },
         {
             "CodeName": "GrassMammoth",
-            "Name": "Mammorest",
             "Type": [
                 "Grass"
             ],
@@ -1937,7 +1935,8 @@
             },
             "Scaling": {
                 "HP": 150,
-                "ATK": 85,
+                "PHY": 100,
+                "MAG": 85,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1958,7 +1957,6 @@
         },
         {
             "CodeName": "GrassMammoth_Ice",
-            "Name": "Mammorest Cryst",
             "Type": [
                 "Ice"
             ],
@@ -1973,7 +1971,8 @@
             },
             "Scaling": {
                 "HP": 150,
-                "ATK": 85,
+                "PHY": 100,
+                "MAG": 85,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -1994,7 +1993,6 @@
         },
         {
             "CodeName": "GrassPanda",
-            "Name": "Mossanda",
             "Type": [
                 "Grass"
             ],
@@ -2009,7 +2007,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 90,
+                "PHY": 100,
+                "MAG": 90,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -2030,7 +2029,6 @@
         },
         {
             "CodeName": "GrassPanda_Electric",
-            "Name": "Mossanda Lux",
             "Type": [
                 "Electric"
             ],
@@ -2045,7 +2043,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -2066,7 +2065,6 @@
         },
         {
             "CodeName": "GrassRabbitMan",
-            "Name": "Verdash",
             "Type": [
                 "Grass"
             ],
@@ -2081,7 +2079,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 115,
+                "PHY": 100,
+                "MAG": 115,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -2102,7 +2101,6 @@
         },
         {
             "CodeName": "HadesBird",
-            "Name": "Helzephyr",
             "Type": [
                 "Dark"
             ],
@@ -2117,7 +2115,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 125,
+                "PHY": 100,
+                "MAG": 125,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -2138,7 +2137,6 @@
         },
         {
             "CodeName": "HawkBird",
-            "Name": "Nitewing",
             "Type": [
                 "Neutral"
             ],
@@ -2153,7 +2151,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 95,
+                "PHY": 100,
+                "MAG": 95,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -2174,7 +2173,6 @@
         },
         {
             "CodeName": "Hedgehog",
-            "Name": "Jolthog",
             "Type": [
                 "Electric"
             ],
@@ -2189,7 +2187,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 75,
+                "PHY": 70,
+                "MAG": 75,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -2210,7 +2209,6 @@
         },
         {
             "CodeName": "Hedgehog_Ice",
-            "Name": "Jolthog Cryst",
             "Type": [
                 "Ice"
             ],
@@ -2225,7 +2223,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 75,
+                "PHY": 70,
+                "MAG": 75,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -2246,7 +2245,6 @@
         },
         {
             "CodeName": "HerculesBeetle",
-            "Name": "Warsect",
             "Type": [
                 "Ground",
                 "Grass"
@@ -2262,7 +2260,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -2283,7 +2282,6 @@
         },
         {
             "CodeName": "Horus",
-            "Name": "Faleris",
             "Type": [
                 "Fire"
             ],
@@ -2298,7 +2296,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -2319,7 +2318,6 @@
         },
         {
             "CodeName": "IceDeer",
-            "Name": "Reindrix",
             "Type": [
                 "Ice"
             ],
@@ -2334,7 +2332,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 85,
+                "PHY": 80,
+                "MAG": 85,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -2355,7 +2354,6 @@
         },
         {
             "CodeName": "IceFox",
-            "Name": "Foxcicle",
             "Type": [
                 "Ice"
             ],
@@ -2370,7 +2368,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 95,
+                "PHY": 100,
+                "MAG": 95,
                 "DEF": 105
             },
             "Suitabilities": {
@@ -2391,7 +2390,6 @@
         },
         {
             "CodeName": "IceHorse",
-            "Name": "Frostallion",
             "Type": [
                 "Ice"
             ],
@@ -2406,9 +2404,9 @@
             },
             "Scaling": {
                 "HP": 140,
-                "ATK": 140,
-                "DEF": 120,
-                "HP_BOSS": 420
+                "PHY": 100,
+                "MAG": 140,
+                "DEF": 120
             },
             "Suitabilities": {
                 "EmitFlame": 0,
@@ -2428,7 +2426,6 @@
         },
         {
             "CodeName": "IceHorse_Dark",
-            "Name": "Frostallion Noct",
             "Type": [
                 "Dark"
             ],
@@ -2443,7 +2440,8 @@
             },
             "Scaling": {
                 "HP": 140,
-                "ATK": 140,
+                "PHY": 100,
+                "MAG": 140,
                 "DEF": 135
             },
             "Suitabilities": {
@@ -2464,7 +2462,6 @@
         },
         {
             "CodeName": "JetDragon",
-            "Name": "Jetragon",
             "Type": [
                 "Dragon"
             ],
@@ -2479,8 +2476,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "HP_BOSS": 330,
-                "ATK": 140,
+                "PHY": 100,
+                "MAG": 140,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -2501,7 +2498,6 @@
         },
         {
             "CodeName": "Kelpie",
-            "Name": "Kelpsea",
             "Type": [
                 "Water"
             ],
@@ -2516,7 +2512,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -2537,7 +2534,6 @@
         },
         {
             "CodeName": "Kelpie_Fire",
-            "Name": "Kelpsea Ignis",
             "Type": [
                 "Fire"
             ],
@@ -2552,7 +2548,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -2573,7 +2570,6 @@
         },
         {
             "CodeName": "KingAlpaca",
-            "Name": "Kingpaca",
             "Type": [
                 "Neutral"
             ],
@@ -2588,7 +2584,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 85,
+                "PHY": 100,
+                "MAG": 85,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -2609,7 +2606,6 @@
         },
         {
             "CodeName": "KingAlpaca_Ice",
-            "Name": "Kingpaca Cryst",
             "Type": [
                 "Ice"
             ],
@@ -2624,7 +2620,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 85,
+                "PHY": 100,
+                "MAG": 85,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -2645,7 +2642,6 @@
         },
         {
             "CodeName": "KingBahamut",
-            "Name": "Blazamut",
             "Type": [
                 "Fire"
             ],
@@ -2660,7 +2656,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 125,
+                "PHY": 150,
+                "MAG": 125,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -2681,7 +2678,6 @@
         },
         {
             "CodeName": "Kirin",
-            "Name": "Univolt",
             "Type": [
                 "Electric"
             ],
@@ -2696,7 +2692,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 105,
+                "PHY": 110,
+                "MAG": 105,
                 "DEF": 105
             },
             "Suitabilities": {
@@ -2717,7 +2714,6 @@
         },
         {
             "CodeName": "Kitsunebi",
-            "Name": "Foxparks",
             "Type": [
                 "Fire"
             ],
@@ -2732,7 +2728,8 @@
             },
             "Scaling": {
                 "HP": 65,
-                "ATK": 75,
+                "PHY": 70,
+                "MAG": 75,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -2753,7 +2750,6 @@
         },
         {
             "CodeName": "LavaGirl",
-            "Name": "Flambelle",
             "Type": [
                 "Fire"
             ],
@@ -2768,7 +2764,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -2789,14 +2786,14 @@
         },
         {
             "CodeName": "LazyCatfish",
-            "Name": "Dumud",
             "Type": [
                 "Ground"
             ],
             "Moveset": {},
             "Scaling": {
                 "HP": 100,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 95
             },
             "Suitabilities": {
@@ -2817,7 +2814,6 @@
         },
         {
             "CodeName": "LazyDragon",
-            "Name": "Relaxaurus",
             "Type": [
                 "Dragon",
                 "Water"
@@ -2833,7 +2829,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 100,
+                "PHY": 110,
+                "MAG": 100,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -2854,7 +2851,6 @@
         },
         {
             "CodeName": "LazyDragon_Electric",
-            "Name": "Relaxaurus Lux",
             "Type": [
                 "Dragon",
                 "Electric"
@@ -2870,7 +2866,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 110,
+                "PHY": 110,
+                "MAG": 110,
                 "DEF": 75
             },
             "Suitabilities": {
@@ -2891,7 +2888,6 @@
         },
         {
             "CodeName": "LilyQueen",
-            "Name": "Lyleen",
             "Type": [
                 "Grass"
             ],
@@ -2906,7 +2902,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 110,
+                "PHY": 100,
+                "MAG": 110,
                 "DEF": 105
             },
             "Suitabilities": {
@@ -2927,7 +2924,6 @@
         },
         {
             "CodeName": "LilyQueen_Dark",
-            "Name": "Lyleen Noct",
             "Type": [
                 "Dark"
             ],
@@ -2942,7 +2938,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 110,
+                "PHY": 100,
+                "MAG": 110,
                 "DEF": 115
             },
             "Suitabilities": {
@@ -2963,7 +2960,6 @@
         },
         {
             "CodeName": "LittleBriarRose",
-            "Name": "Bristla",
             "Type": [
                 "Grass"
             ],
@@ -2978,7 +2974,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 80,
+                "PHY": 80,
+                "MAG": 80,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -2999,7 +2996,6 @@
         },
         {
             "CodeName": "LizardMan",
-            "Name": "Leezpunk",
             "Type": [
                 "Dark"
             ],
@@ -3014,7 +3010,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 80,
+                "PHY": 90,
+                "MAG": 80,
                 "DEF": 50
             },
             "Suitabilities": {
@@ -3035,7 +3032,6 @@
         },
         {
             "CodeName": "LizardMan_Fire",
-            "Name": "Leezpunk Ignis",
             "Type": [
                 "Fire"
             ],
@@ -3050,7 +3046,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 80,
+                "PHY": 90,
+                "MAG": 80,
                 "DEF": 50
             },
             "Suitabilities": {
@@ -3071,7 +3068,6 @@
         },
         {
             "CodeName": "Manticore",
-            "Name": "Blazehowl",
             "Type": [
                 "Fire"
             ],
@@ -3086,7 +3082,8 @@
             },
             "Scaling": {
                 "HP": 105,
-                "ATK": 110,
+                "PHY": 100,
+                "MAG": 110,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -3107,7 +3104,6 @@
         },
         {
             "CodeName": "Manticore_Dark",
-            "Name": "Blazehowl Noct",
             "Type": [
                 "Fire",
                 "Dark"
@@ -3123,7 +3119,8 @@
             },
             "Scaling": {
                 "HP": 105,
-                "ATK": 115,
+                "PHY": 100,
+                "MAG": 115,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -3144,7 +3141,6 @@
         },
         {
             "CodeName": "Monkey",
-            "Name": "Tanzee",
             "Type": [
                 "Grass"
             ],
@@ -3159,7 +3155,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3180,7 +3177,6 @@
         },
         {
             "CodeName": "MopBaby",
-            "Name": "Swee",
             "Type": [
                 "Ice"
             ],
@@ -3195,7 +3191,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 60,
+                "PHY": 100,
+                "MAG": 60,
                 "DEF": 60
             },
             "Suitabilities": {
@@ -3216,7 +3213,6 @@
         },
         {
             "CodeName": "MopKing",
-            "Name": "Sweepa",
             "Type": [
                 "Ice"
             ],
@@ -3231,7 +3227,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 90,
+                "PHY": 100,
+                "MAG": 90,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -3252,7 +3249,6 @@
         },
         {
             "CodeName": "Mutant",
-            "Name": "Lunaris",
             "Type": [
                 "Neutral"
             ],
@@ -3267,7 +3263,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 100,
+                "PHY": 80,
+                "MAG": 100,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -3288,7 +3285,6 @@
         },
         {
             "CodeName": "NaughtyCat",
-            "Name": "Grintale",
             "Type": [
                 "Neutral"
             ],
@@ -3303,7 +3299,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 80,
+                "PHY": 100,
+                "MAG": 80,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -3324,7 +3321,6 @@
         },
         {
             "CodeName": "NegativeKoala",
-            "Name": "Depresso",
             "Type": [
                 "Dark"
             ],
@@ -3339,7 +3335,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3360,7 +3357,6 @@
         },
         {
             "CodeName": "NegativeOctopus",
-            "Name": "Killamari",
             "Type": [
                 "Dark"
             ],
@@ -3375,7 +3371,8 @@
             },
             "Scaling": {
                 "HP": 60,
-                "ATK": 60,
+                "PHY": 100,
+                "MAG": 60,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3396,7 +3393,6 @@
         },
         {
             "CodeName": "NightFox",
-            "Name": "Nox",
             "Type": [
                 "Dark"
             ],
@@ -3411,7 +3407,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 85,
+                "PHY": 70,
+                "MAG": 85,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3432,7 +3429,6 @@
         },
         {
             "CodeName": "Penguin",
-            "Name": "Pengullet",
             "Type": [
                 "Water",
                 "Ice"
@@ -3448,7 +3444,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 75,
+                "PHY": 70,
+                "MAG": 75,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3469,7 +3466,6 @@
         },
         {
             "CodeName": "PinkCat",
-            "Name": "Cattiva",
             "Type": [
                 "Neutral"
             ],
@@ -3484,7 +3480,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3505,7 +3502,6 @@
         },
         {
             "CodeName": "PinkLizard",
-            "Name": "Lovander",
             "Type": [
                 "Neutral"
             ],
@@ -3520,7 +3516,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3541,7 +3538,6 @@
         },
         {
             "CodeName": "PinkRabbit",
-            "Name": "Ribbuny",
             "Type": [
                 "Neutral"
             ],
@@ -3556,7 +3552,8 @@
             },
             "Scaling": {
                 "HP": 75,
-                "ATK": 65,
+                "PHY": 100,
+                "MAG": 65,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3577,7 +3574,6 @@
         },
         {
             "CodeName": "PlantSlime",
-            "Name": "Gumoss",
             "Type": [
                 "Grass",
                 "Ground"
@@ -3593,7 +3589,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3614,7 +3611,6 @@
         },
         {
             "CodeName": "PlantSlime_Flower",
-            "Name": "Gumoss (Special)",
             "Type": [
                 "Grass",
                 "Ground"
@@ -3630,7 +3626,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3651,7 +3648,6 @@
         },
         {
             "CodeName": "QueenBee",
-            "Name": "Elizabee",
             "Type": [
                 "Grass"
             ],
@@ -3666,7 +3662,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -3687,7 +3684,6 @@
         },
         {
             "CodeName": "RaijinDaughter",
-            "Name": "Dazzi",
             "Type": [
                 "Electric"
             ],
@@ -3702,7 +3698,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 80,
+                "PHY": 110,
+                "MAG": 80,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -3723,7 +3720,6 @@
         },
         {
             "CodeName": "RedArmorBird",
-            "Name": "Ragnahawk",
             "Type": [
                 "Fire"
             ],
@@ -3738,7 +3734,8 @@
             },
             "Scaling": {
                 "HP": 95,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -3759,7 +3756,6 @@
         },
         {
             "CodeName": "RobinHood",
-            "Name": "Robinquill",
             "Type": [
                 "Grass"
             ],
@@ -3774,7 +3770,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -3795,7 +3792,6 @@
         },
         {
             "CodeName": "RobinHood_Ground",
-            "Name": "Robinquill Terra",
             "Type": [
                 "Grass",
                 "Ground"
@@ -3811,7 +3807,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -3832,7 +3829,6 @@
         },
         {
             "CodeName": "Ronin",
-            "Name": "Bushi",
             "Type": [
                 "Fire"
             ],
@@ -3847,7 +3843,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 125,
+                "PHY": 100,
+                "MAG": 125,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -3868,7 +3865,6 @@
         },
         {
             "CodeName": "SaintCentaur",
-            "Name": "Paladius",
             "Type": [
                 "Neutral"
             ],
@@ -3883,8 +3879,8 @@
             },
             "Scaling": {
                 "HP": 130,
-                "HP_BOSS": 260,
-                "ATK": 120,
+                "PHY": 110,
+                "MAG": 120,
                 "DEF": 145
             },
             "Suitabilities": {
@@ -3905,7 +3901,6 @@
         },
         {
             "CodeName": "SakuraSaurus",
-            "Name": "Broncherry",
             "Type": [
                 "Grass"
             ],
@@ -3920,7 +3915,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 90,
+                "PHY": 80,
+                "MAG": 90,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -3941,7 +3937,6 @@
         },
         {
             "CodeName": "SakuraSaurus_Water",
-            "Name": "Broncherry Aqua",
             "Type": [
                 "Grass",
                 "Water"
@@ -3957,7 +3952,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 95,
+                "PHY": 80,
+                "MAG": 95,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -3978,7 +3974,6 @@
         },
         {
             "CodeName": "Serpent",
-            "Name": "Surfent",
             "Type": [
                 "Water"
             ],
@@ -3993,7 +3988,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 90,
+                "PHY": 70,
+                "MAG": 90,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -4014,7 +4010,6 @@
         },
         {
             "CodeName": "Serpent_Ground",
-            "Name": "Surfent Terra",
             "Type": [
                 "Ground"
             ],
@@ -4029,7 +4024,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 90,
+                "PHY": 70,
+                "MAG": 90,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4050,7 +4046,6 @@
         },
         {
             "CodeName": "SharkKid",
-            "Name": "Gobfin",
             "Type": [
                 "Water"
             ],
@@ -4065,7 +4060,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 90,
+                "PHY": 90,
+                "MAG": 90,
                 "DEF": 75
             },
             "Suitabilities": {
@@ -4086,7 +4082,6 @@
         },
         {
             "CodeName": "SharkKid_Fire",
-            "Name": "Gobfin Ignis",
             "Type": [
                 "Fire"
             ],
@@ -4101,7 +4096,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 90,
+                "PHY": 90,
+                "MAG": 90,
                 "DEF": 75
             },
             "Suitabilities": {
@@ -4122,7 +4118,6 @@
         },
         {
             "CodeName": "Sheepball",
-            "Name": "Lamball",
             "Type": [
                 "Neutral"
             ],
@@ -4137,7 +4132,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -4158,7 +4154,6 @@
         },
         {
             "CodeName": "SkyDragon",
-            "Name": "Quivern",
             "Type": [
                 "Dragon"
             ],
@@ -4173,7 +4168,8 @@
             },
             "Scaling": {
                 "HP": 105,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4194,7 +4190,6 @@
         },
         {
             "CodeName": "SoldierBee",
-            "Name": "Beegarde",
             "Type": [
                 "Grass"
             ],
@@ -4209,7 +4204,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 90,
+                "PHY": 100,
+                "MAG": 90,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -4230,7 +4226,6 @@
         },
         {
             "CodeName": "Suzaku",
-            "Name": "Suzaku",
             "Type": [
                 "Fire"
             ],
@@ -4245,7 +4240,8 @@
             },
             "Scaling": {
                 "HP": 120,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 105
             },
             "Suitabilities": {
@@ -4266,7 +4262,6 @@
         },
         {
             "CodeName": "Suzaku_Water",
-            "Name": "Suzaku Aqua",
             "Type": [
                 "Water"
             ],
@@ -4281,7 +4276,8 @@
             },
             "Scaling": {
                 "HP": 125,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 105
             },
             "Suitabilities": {
@@ -4302,7 +4298,6 @@
         },
         {
             "CodeName": "SweetsSheep",
-            "Name": "Woolipop",
             "Type": [
                 "Neutral"
             ],
@@ -4317,7 +4312,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 90
             },
             "Suitabilities": {
@@ -4338,7 +4334,6 @@
         },
         {
             "CodeName": "ThunderBird",
-            "Name": "Beakon",
             "Type": [
                 "Electric"
             ],
@@ -4353,7 +4348,8 @@
             },
             "Scaling": {
                 "HP": 105,
-                "ATK": 115,
+                "PHY": 100,
+                "MAG": 115,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -4374,7 +4370,6 @@
         },
         {
             "CodeName": "ThunderDog",
-            "Name": "Rayhound",
             "Type": [
                 "Electric"
             ],
@@ -4389,7 +4384,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -4410,7 +4406,6 @@
         },
         {
             "CodeName": "ThunderDragonMan",
-            "Name": "Orserk",
             "Type": [
                 "Dragon",
                 "Electric"
@@ -4426,7 +4421,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 130,
+                "PHY": 100,
+                "MAG": 130,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4447,7 +4443,6 @@
         },
         {
             "CodeName": "Umihebi",
-            "Name": "Jormuntide",
             "Type": [
                 "Dragon",
                 "Water"
@@ -4463,7 +4458,8 @@
             },
             "Scaling": {
                 "HP": 130,
-                "ATK": 120,
+                "PHY": 150,
+                "MAG": 120,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4484,7 +4480,6 @@
         },
         {
             "CodeName": "Umihebi_Fire",
-            "Name": "Jormuntide Ignis",
             "Type": [
                 "Dragon",
                 "Fire"
@@ -4500,7 +4495,8 @@
             },
             "Scaling": {
                 "HP": 130,
-                "ATK": 130,
+                "PHY": 150,
+                "MAG": 130,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4521,7 +4517,6 @@
         },
         {
             "CodeName": "VioletFairy",
-            "Name": "Vaelet",
             "Type": [
                 "Grass"
             ],
@@ -4536,7 +4531,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -4557,7 +4553,6 @@
         },
         {
             "CodeName": "VolcanicMonster",
-            "Name": "Reptyro",
             "Type": [
                 "Fire",
                 "Ground"
@@ -4573,7 +4568,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 120
             },
             "Suitabilities": {
@@ -4594,7 +4590,6 @@
         },
         {
             "CodeName": "VolcanicMonster_Ice",
-            "Name": "Reptyro Cryst",
             "Type": [
                 "Ice",
                 "Ground"
@@ -4610,7 +4605,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 105,
+                "PHY": 100,
+                "MAG": 105,
                 "DEF": 130
             },
             "Suitabilities": {
@@ -4631,7 +4627,6 @@
         },
         {
             "CodeName": "WeaselDragon",
-            "Name": "Chillet",
             "Type": [
                 "Ice",
                 "Dragon"
@@ -4639,6 +4634,7 @@
             "Moveset": {
                 "EPalWazaID::IceMissile": 1,
                 "EPalWazaID::DragonCanon": 7,
+                "EPalWazaID::Unique_WeaselDragon_FlyingTackle": 11,
                 "EPalWazaID::DragonWave": 15,
                 "EPalWazaID::IceBlade": 22,
                 "EPalWazaID::DragonBreath": 30,
@@ -4647,7 +4643,8 @@
             },
             "Scaling": {
                 "HP": 90,
-                "ATK": 80,
+                "PHY": 100,
+                "MAG": 80,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -4668,7 +4665,6 @@
         },
         {
             "CodeName": "Werewolf",
-            "Name": "Loupmoon",
             "Type": [
                 "Dark"
             ],
@@ -4683,7 +4679,8 @@
             },
             "Scaling": {
                 "HP": 80,
-                "ATK": 100,
+                "PHY": 130,
+                "MAG": 100,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -4704,7 +4701,6 @@
         },
         {
             "CodeName": "WhiteMoth",
-            "Name": "Sibelyx",
             "Type": [
                 "Ice"
             ],
@@ -4719,7 +4715,8 @@
             },
             "Scaling": {
                 "HP": 110,
-                "ATK": 90,
+                "PHY": 90,
+                "MAG": 90,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4740,7 +4737,6 @@
         },
         {
             "CodeName": "WhiteTiger",
-            "Name": "Cryolinx",
             "Type": [
                 "Ice"
             ],
@@ -4755,7 +4751,8 @@
             },
             "Scaling": {
                 "HP": 100,
-                "ATK": 100,
+                "PHY": 140,
+                "MAG": 100,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -4776,14 +4773,14 @@
         },
         {
             "CodeName": "WindChimes",
-            "Name": "Hangyu",
             "Type": [
                 "Ground"
             ],
             "Moveset": {},
             "Scaling": {
                 "HP": 80,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -4804,14 +4801,14 @@
         },
         {
             "CodeName": "WindChimes_Ice",
-            "Name": "Hangyu Cryst",
             "Type": [
                 "Ice"
             ],
             "Moveset": {},
             "Scaling": {
                 "HP": 80,
-                "ATK": 80,
+                "PHY": 70,
+                "MAG": 80,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -4832,7 +4829,6 @@
         },
         {
             "CodeName": "WizardOwl",
-            "Name": "Hoocrates",
             "Type": [
                 "Dark"
             ],
@@ -4847,7 +4843,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 70,
+                "MAG": 70,
                 "DEF": 80
             },
             "Suitabilities": {
@@ -4868,7 +4865,6 @@
         },
         {
             "CodeName": "WoolFox",
-            "Name": "Cremis",
             "Type": [
                 "Neutral"
             ],
@@ -4883,7 +4879,8 @@
             },
             "Scaling": {
                 "HP": 70,
-                "ATK": 70,
+                "PHY": 100,
+                "MAG": 70,
                 "DEF": 75
             },
             "Suitabilities": {
@@ -4904,7 +4901,6 @@
         },
         {
             "CodeName": "Yeti",
-            "Name": "Wumpo",
             "Type": [
                 "Ice"
             ],
@@ -4919,7 +4915,8 @@
             },
             "Scaling": {
                 "HP": 140,
-                "ATK": 80,
+                "PHY": 100,
+                "MAG": 80,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -4940,7 +4937,6 @@
         },
         {
             "CodeName": "Yeti_Grass",
-            "Name": "Wumpo Botan",
             "Type": [
                 "Grass"
             ],
@@ -4955,7 +4951,8 @@
             },
             "Scaling": {
                 "HP": 140,
-                "ATK": 80,
+                "PHY": 100,
+                "MAG": 80,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -4976,7 +4973,6 @@
         },
         {
             "CodeName": "BlackFurDragon",
-            "Name": "Dragostrophe",
             "Type": [
                 "Dark",
                 "Dragon"
@@ -4984,7 +4980,8 @@
             "Moveset": {},
             "Scaling": {
                 "HP": 130,
-                "ATK": 130,
+                "PHY": 100,
+                "MAG": 130,
                 "DEF": 110
             },
             "Suitabilities": {
@@ -5005,14 +5002,14 @@
         },
         {
             "CodeName": "ElecLion",
-            "Name": "Boltmane",
             "Type": [
                 "Electric"
             ],
             "Moveset": {},
             "Scaling": {
                 "HP": 100,
-                "ATK": 110,
+                "PHY": 100,
+                "MAG": 110,
                 "DEF": 70
             },
             "Suitabilities": {
@@ -5033,7 +5030,6 @@
         },
         {
             "CodeName": "DarkMutant",
-            "Name": "Dark Mutant",
             "Type": [
                 "Dark",
                 "Dragon"
@@ -5041,7 +5037,8 @@
             "Moveset": {},
             "Scaling": {
                 "HP": 100,
-                "ATK": 100,
+                "PHY": 100,
+                "MAG": 100,
                 "DEF": 100
             },
             "Suitabilities": {
@@ -5061,54 +5058,179 @@
             }
         },
         {
+            "CodeName": "NightLady",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DarkPulse": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::GhostFlame": 22,
+                "EPalWazaID::ShadowBall": 30,
+                "EPalWazaID::Apocalypse": 40,
+                "EPalWazaID::Unique_NightLady_WarpBeam_Straight": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::GhostFlame": 1,
+                "EPalWazaID::DarkPulse": 2,
+                "EPalWazaID::ShadowBall": 3,
+                "EPalWazaID::DarkLaser": 4,
+                "EPalWazaID::DarkCannon": 5,
+                "EPalWazaID::DarkArrow": 6,
+                "EPalWazaID::Apocalypse": 7,
+                "EPalWazaID::Unique_NightLady_WarpBeam_Straight": 8
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 100,
+                "MAG": 150,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 4,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "NightLady_Dark",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DarkPulse": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::ShadowBall": 22,
+                "EPalWazaID::Apocalypse": 30,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 40,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::DarkPulse": 1,
+                "EPalWazaID::ShadowBall": 2,
+                "EPalWazaID::DarkLaser": 3,
+                "EPalWazaID::DarkCanon": 4,
+                "EPalWazaID::DarkLegion": 5,
+                "EPalWazaID::DarkArrow": 6,
+                "EPalWazaID::Apocalypse": 7,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 8,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 9
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 100,
+                "MAG": 150,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 4,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
             "CodeName": "GYM_ThunderDragonMan",
-            "Name": "Axel & Orserk",
             "Type": [
                 "Dragon",
                 "Electric"
             ],
             "Moveset": {},
-            "Tower": true
+            "Tower": true,
+            "Scaling": {
+                "HP": 100,
+                "PHY": 100,
+                "MAG": 130,
+                "DEF": 110
+            }
         },
         {
             "CodeName": "GYM_LilyQueen",
-            "Name": "Lily & Lyleen",
             "Type": [
                 "Grass"
             ],
             "Moveset": {},
-            "Tower": true
+            "Tower": true,
+            "Scaling": {
+                "HP": 110,
+                "PHY": 100,
+                "MAG": 110,
+                "DEF": 105
+            }
         },
         {
             "CodeName": "GYM_Horus",
-            "Name": "Marus & Faleris",
             "Type": [
                 "Fire"
             ],
             "Moveset": {},
-            "Tower": true
+            "Tower": true,
+            "Scaling": {
+                "HP": 100,
+                "PHY": 100,
+                "MAG": 105,
+                "DEF": 110
+            }
         },
         {
             "CodeName": "GYM_BlackGriffon",
-            "Name": "Victor & Shadowbeak",
             "Type": [
                 "Dark"
             ],
             "Moveset": {},
-            "Tower": true
+            "Tower": true,
+            "Scaling": {
+                "HP": 120,
+                "PHY": 130,
+                "MAG": 120,
+                "DEF": 140
+            }
         },
         {
             "CodeName": "GYM_ElecPanda",
-            "Name": "Zoe & Grizzbolt",
             "Type": [
                 "Electric"
             ],
             "Moveset": {},
-            "Tower": true
+            "Tower": true,
+            "Scaling": {
+                "HP": 105,
+                "PHY": 100,
+                "MAG": 100,
+                "DEF": 100
+            }
         },
         {
             "CodeName": "Male_DarkTrader01",
-            "Name": "Black Marketeer",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_DarkTrader02",
             "Type": [
                 "None"
             ],
@@ -5117,7 +5239,6 @@
         },
         {
             "CodeName": "FireCult_FlameThrower",
-            "Name": "Brothers of the Eternal Pyre Martyr",
             "Type": [
                 "None"
             ],
@@ -5126,7 +5247,6 @@
         },
         {
             "CodeName": "FireCult_Rifle",
-            "Name": "Brothers of the Eternal Pyre Rifleman",
             "Type": [
                 "None"
             ],
@@ -5135,7 +5255,30 @@
         },
         {
             "CodeName": "Male_Soldier01",
-            "Name": "Burly Merc",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_Soldier02",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_Soldier03",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_Soldier04",
             "Type": [
                 "None"
             ],
@@ -5144,7 +5287,30 @@
         },
         {
             "CodeName": "Female_Soldier01",
-            "Name": "Expedition Survivor",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Female_Soldier02",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Female_Soldier03",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Female_Soldier04",
             "Type": [
                 "None"
             ],
@@ -5153,7 +5319,6 @@
         },
         {
             "CodeName": "Believer_CrossBow",
-            "Name": "Free Pal Alliance Devout",
             "Type": [
                 "None"
             ],
@@ -5162,7 +5327,14 @@
         },
         {
             "CodeName": "Believer_Bat",
-            "Name": "Free Pal Alliance Thug",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Believer_Fat_GatlingGun",
             "Type": [
                 "None"
             ],
@@ -5171,7 +5343,14 @@
         },
         {
             "CodeName": "Male_Scientist01_LaserRifle",
-            "Name": "PAL Genetic Research Unit Executioner",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Scientist_FlameThrower",
             "Type": [
                 "None"
             ],
@@ -5180,7 +5359,22 @@
         },
         {
             "CodeName": "PalDealer",
-            "Name": "Pal Merchant",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "RandomEventShop",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_Trader01",
             "Type": [
                 "None"
             ],
@@ -5189,7 +5383,6 @@
         },
         {
             "CodeName": "Police_Handgun",
-            "Name": "PIDF Guard",
             "Type": [
                 "None"
             ],
@@ -5198,7 +5391,6 @@
         },
         {
             "CodeName": "Hunter_Bat",
-            "Name": "Syndicate Thug (Bat)",
             "Type": [
                 "None"
             ],
@@ -5207,7 +5399,6 @@
         },
         {
             "CodeName": "Hunter_FlameThrower",
-            "Name": "Syndicate Cleaner",
             "Type": [
                 "None"
             ],
@@ -5216,7 +5407,6 @@
         },
         {
             "CodeName": "Hunter_Fat_GatlingGun",
-            "Name": "Syndicate Crusher",
             "Type": [
                 "None"
             ],
@@ -5225,7 +5415,6 @@
         },
         {
             "CodeName": "Hunter_RocketLauncher",
-            "Name": "Syndicate Elite",
             "Type": [
                 "None"
             ],
@@ -5234,7 +5423,6 @@
         },
         {
             "CodeName": "Hunter_Grenade",
-            "Name": "Syndicate Grenadier",
             "Type": [
                 "None"
             ],
@@ -5243,7 +5431,6 @@
         },
         {
             "CodeName": "Hunter_Rifle",
-            "Name": "Syndicate Gunner",
             "Type": [
                 "None"
             ],
@@ -5252,7 +5439,6 @@
         },
         {
             "CodeName": "Hunter_Shotgun",
-            "Name": "Syndicate Hunter",
             "Type": [
                 "None"
             ],
@@ -5261,7 +5447,22 @@
         },
         {
             "CodeName": "Hunter_Handgun",
-            "Name": "Syndicate Thug (Handgun)",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_GrenadeLauncher",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_MissileLauncher",
             "Type": [
                 "None"
             ],
@@ -5270,7 +5471,6 @@
         },
         {
             "CodeName": "SalesPerson",
-            "Name": "Wandering Merchant",
             "Type": [
                 "None"
             ],
@@ -5279,7 +5479,6 @@
         },
         {
             "CodeName": "SalesPerson_Desert",
-            "Name": "Wandering Merchant (Desert)",
             "Type": [
                 "None"
             ],
@@ -5288,7 +5487,6 @@
         },
         {
             "CodeName": "SalesPerson_Desert2",
-            "Name": "Wandering Merchant (Desert)",
             "Type": [
                 "None"
             ],
@@ -5297,7 +5495,6 @@
         },
         {
             "CodeName": "SalesPerson_Volcano",
-            "Name": "Wandering Merchant (Volcano)",
             "Type": [
                 "None"
             ],
@@ -5306,7 +5503,14 @@
         },
         {
             "CodeName": "SalesPerson_Volcano2",
-            "Name": "Wandering Merchant (Volcano)",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "SalesPerson_Wander",
             "Type": [
                 "None"
             ],
@@ -5315,7 +5519,6 @@
         },
         {
             "CodeName": "Female_DesertPeople02",
-            "Name": "Female Villager",
             "Type": [
                 "None"
             ],
@@ -5324,7 +5527,6 @@
         },
         {
             "CodeName": "Female_People02",
-            "Name": "Female Villager",
             "Type": [
                 "None"
             ],
@@ -5333,7 +5535,6 @@
         },
         {
             "CodeName": "Female_People03",
-            "Name": "Female Villager",
             "Type": [
                 "None"
             ],
@@ -5342,7 +5543,6 @@
         },
         {
             "CodeName": "Male_DesertPeople01",
-            "Name": "Male Villager",
             "Type": [
                 "None"
             ],
@@ -5351,7 +5551,6 @@
         },
         {
             "CodeName": "Male_People02",
-            "Name": "Male Villager",
             "Type": [
                 "None"
             ],
@@ -5360,7 +5559,14 @@
         },
         {
             "CodeName": "Male_People03",
-            "Name": "Male Villager",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_Police_old",
             "Type": [
                 "None"
             ],
@@ -5369,7 +5575,6 @@
         },
         {
             "CodeName": "MobuCitizen",
-            "Name": "Female Islander",
             "Type": [
                 "None"
             ],
@@ -5378,7 +5583,6 @@
         },
         {
             "CodeName": "MobuCitizen_Male",
-            "Name": "Male Islander",
             "Type": [
                 "None"
             ],
@@ -5387,7 +5591,6 @@
         },
         {
             "CodeName": "MobuCitizen",
-            "Name": "Islander",
             "Type": [
                 "None"
             ],
@@ -5396,7 +5599,6 @@
         },
         {
             "CodeName": "Guard_Rifle",
-            "Name": "Guard",
             "Type": [
                 "None"
             ],
@@ -5405,7 +5607,6 @@
         },
         {
             "CodeName": "Guard_Shotgun",
-            "Name": "PIDF Goody Two-Shoes",
             "Type": [
                 "None"
             ],
@@ -5414,7 +5615,6 @@
         },
         {
             "CodeName": "PalDealer_Desert",
-            "Name": "Pal Merchant (Desert)",
             "Type": [
                 "None"
             ],
@@ -5423,7 +5623,6 @@
         },
         {
             "CodeName": "PalDealer_Volcano",
-            "Name": "Pal Merchant (Volcano)",
             "Type": [
                 "None"
             ],
@@ -5432,7 +5631,6 @@
         },
         {
             "CodeName": "Police_Rifle",
-            "Name": "PIDF Infantry",
             "Type": [
                 "None"
             ],
@@ -5441,12 +5639,1761 @@
         },
         {
             "CodeName": "Police_Shotgun",
-            "Name": "PIDF Elite",
             "Type": [
                 "None"
             ],
             "Moveset": {},
             "Human": true
+        },
+        {
+            "CodeName": "Male_Ninja01",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_NinjaElite01",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "FireCult_FlameThrower_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "FireCult_Rifle_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Believer_CrossBow_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Believer_Bat_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Male_Scientist01_LaserRifle_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Scientist_FlameThrower_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Bat_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Handgun_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Rifle_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Shotgun_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Grenade_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Fat_GatlingGun_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_FlameThrower_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_RocketLauncher_Invader",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Rifle_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Shotgun_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Grenade_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Fat_GatlingGun_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_FlameThrower_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_GrenadeLauncher_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_RocketLauncher_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_MissileLauncher_Oilrig",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Hunter_Fat_GatlingGun_Tower",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Believer_CrossBow_Tower",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Police_Rifle_Tower",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Police_Shotgun_Tower",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "Ninja01_Tower",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "NinjaElite01_Tower",
+            "Type": [
+                "None"
+            ],
+            "Moveset": {},
+            "Human": true
+        },
+        {
+            "CodeName": "GYM_BlackGriffon_2_Avatar",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_BlackGriffon_TackleLaser": 1,
+                "EPalWazaID::Unique_BlackGriffon_TackleLaser2": 2,
+                "EPalWazaID::DarkLaser": 3,
+                "EPalWazaID::Apocalypse": 4,
+                "EPalWazaID::IciclePierce": 5,
+                "EPalWazaID::DoubleIcicleThrow": 6,
+                "EPalWazaID::IcicleLine": 7,
+                "EPalWazaID::BeamSlicer": 8,
+                "EPalWazaID::ShokeiLaser": 9,
+                "EPalWazaID::SandTwister": 10,
+                "EPalWazaID::WallSplash": 11,
+                "EPalWazaID::FlameFunnel": 12
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 130,
+                "MAG": 120,
+                "DEF": 140
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_MoonQueen_2_Servant",
+            "Type": [
+                "Dark",
+				"Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::AirBlade": 1,
+                "EPalWazaID::PowerBall": 2,
+                "EPalWazaID::ShadowBall": 3,
+                "EPalWazaID::IcicleThrow": 4,
+                "EPalWazaID::Commet": 5,
+                "EPalWazaID::GhostFlame": 6,
+                "EPalWazaID::DarkArrow": 7
+            },
+            "Scaling": {
+                "HP": 130,
+                "PHY": 100,
+                "MAG": 115,
+                "DEF": 110
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 1,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_ThunderDragonMan_2",
+            "Type": [
+                "Dragon",
+                "Electric"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_ThunderDragonMan_NumerousSwordAttack": 1,
+                "EPalWazaID::RangeThunder": 2,
+                "EPalWazaID::Commet": 3,
+                "EPalWazaID::BeamSlicer": 4,
+                "EPalWazaID::BlastCanon": 5,
+                "EPalWazaID::RootLance": 6,
+                "EPalWazaID::SolarBeam": 7,
+                "EPalWazaID::WindEdge": 8
+            },
+            "Scaling": {
+                "HP": 100,
+                "PHY": 100,
+                "MAG": 130,
+                "DEF": 110
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 3,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_LilyQueen_2",
+            "Type": [
+                "Grass"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_LilyQueen_LilyHealing": 1,
+                "EPalWazaID::SeedMine": 2,
+                "EPalWazaID::RaidCutter": 3,
+                "EPalWazaID::RootAttack": 4,
+                "EPalWazaID::RootLance": 5,
+                "EPalWazaID::HydroPump": 6,
+                "EPalWazaID::LineGeyser": 7,
+                "EPalWazaID::WallSplash": 8,
+                "EPalWazaID::AcidRain": 9,
+                "EPalWazaID::WindEdge": 10,
+                "EPalWazaID::WaterBall": 11,
+                "EPalWazaID::BubbleShot": 12
+            },
+            "Scaling": {
+                "HP": 110,
+                "PHY": 100,
+                "MAG": 110,
+                "DEF": 105
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 3,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 2,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 3,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_Horus_2",
+            "Type": [
+                "Fire"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_Horus_PerfectStorm": 1,
+                "EPalWazaID::FlareArrow": 2,
+                "EPalWazaID::FireBall": 3,
+                "EPalWazaID::FlameWall": 4,
+                "EPalWazaID::Eruption": 5,
+                "EPalWazaID::TriSpark": 6,
+                "EPalWazaID::ThunderRain": 7,
+                "EPalWazaID::ThunderStorm": 8,
+                "EPalWazaID::Railbolt": 9
+            },
+            "Scaling": {
+                "HP": 100,
+                "PHY": 100,
+                "MAG": 105,
+                "DEF": 110
+            },
+            "Suitabilities": {
+                "EmitFlame": 3,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_BlackGriffon_2",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_BlackGriffon_TackleLaser": 1,
+                "EPalWazaID::Unique_BlackGriffon_TackleLaser2": 2,
+                "EPalWazaID::DarkLaser": 3,
+                "EPalWazaID::Apocalypse": 4,
+                "EPalWazaID::IciclePierce": 5,
+                "EPalWazaID::DoubleIcicleThrow": 6,
+                "EPalWazaID::IcicleLine": 7,
+                "EPalWazaID::BeamSlicer": 8,
+                "EPalWazaID::ShokeiLaser": 9,
+                "EPalWazaID::SandTwister": 10,
+                "EPalWazaID::WallSplash": 11,
+                "EPalWazaID::FlameFunnel": 12
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 130,
+                "MAG": 120,
+                "DEF": 140
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_ElecPanda_2",
+            "Type": [
+                "Electric"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_ElecPanda_GatlingAttack": 1,
+                "EPalWazaID::Unique_ElecPanda_ElecScratch": 2,
+                "EPalWazaID::LineThunder": 3,
+                "EPalWazaID::LightningStrike": 4,
+                "EPalWazaID::Thunderbolt": 5,
+                "EPalWazaID::ShokeiLaser": 6,
+                "EPalWazaID::RootAttack": 7,
+                "EPalWazaID::SeedMine": 8,
+                "EPalWazaID::GrassTornado": 9,
+                "EPalWazaID::TriSpark": 10
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 100,
+                "MAG": 100,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 3,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 2,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_MoonQueen_2",
+            "Type": [
+                "Dark",
+                "Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::Unique_MoonQueen_MoonBeam": 1,
+                "EPalWazaID::Unique_MoonQueen_IceMoonBlade": 2,
+                "EPalWazaID::StarMine": 3,
+                "EPalWazaID::AirBlade": 4,
+                "EPalWazaID::HolyBlast": 5,
+                "EPalWazaID::IciclePierce": 6,
+                "EPalWazaID::ShadowBall": 7,
+                "EPalWazaID::IceAge": 8,
+                "EPalWazaID::DoubleIcicleThrow": 9,
+                "EPalWazaID::DiamondFall": 10,
+                "EPalWazaID::ThreeCommet": 11,
+                "EPalWazaID::BlastCanon": 12,
+                "EPalWazaID::DarkCanon": 13
+            },
+            "Scaling": {
+                "HP": 130,
+                "PHY": 100,
+                "MAG": 115,
+                "DEF": 110
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 1,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "Gorilla_Ground",
+            "Type": [
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::PowerShot": 1,
+                "EPalWazaID::MudShot": 7,
+                "EPalWazaID::StoneShotgun": 15,
+                "EPalWazaID::ThrowRock": 22,
+                "EPalWazaID::Unique_Gorilla_GroundPunch": 30,
+                "EPalWazaID::Tremor": 40,
+                "EPalWazaID::RockLance": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 110,
+                "MAG": 100,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 2,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "WeaselDragon_Fire",
+            "Type": [
+                "Fire",
+                "Dragon"
+            ],
+            "Moveset": {
+                "EPalWazaID::FireBlast": 1,
+                "EPalWazaID::DragonWave": 7,
+                "EPalWazaID::FlareArrow": 15,
+                "EPalWazaID::Flamethrower": 22,
+                "EPalWazaID::Unique_WeaselDragon_FlyingTackle": 30,
+                "EPalWazaID::FlameWall": 40,
+                "EPalWazaID::FireBall": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 100,
+                "MAG": 85,
+                "DEF": 80
+            },
+            "Suitabilities": {
+                "EmitFlame": 2,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "Ronin_Dark",
+            "Type": [
+                "Fire",
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::FireSeed": 1,
+                "EPalWazaID::DarkPulse": 7,
+                "EPalWazaID::DarkCanon": 15,
+                "EPalWazaID::DarkArrow": 22,
+                "EPalWazaID::GhostFlame": 30,
+                "EPalWazaID::FlameWall": 40,
+                "EPalWazaID::Apocalypse": 50
+            },
+            "Scaling": {
+                "HP": 80,
+                "PHY": 100,
+                "MAG": 130,
+                "DEF": 80
+            },
+            "Suitabilities": {
+                "EmitFlame": 2,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 1,
+                "Deforest": 3,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "CatMage_Fire",
+            "Type": [
+                "Dark",
+                "Fire"
+            ],
+            "Moveset": {
+                "EPalWazaID::FireBlast": 1,
+                "EPalWazaID::DarkCanon": 7,
+                "EPalWazaID::FlareArrow": 15,
+                "EPalWazaID::FlareTornado": 22,
+                "EPalWazaID::FlameWall": 30,
+                "EPalWazaID::FlameFunnel": 40,
+                "EPalWazaID::FireBall": 50
+            },
+            "Scaling": {
+                "HP": 95,
+                "PHY": 100,
+                "MAG": 105,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 2,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 2,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "FoxMage_Dark",
+            "Type": [
+                "Fire",
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkPulse": 1,
+                "EPalWazaID::DarkCanon": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::FlareTornado": 22,
+                "EPalWazaID::GhostFlame": 30,
+                "EPalWazaID::FlameWall": 40,
+                "EPalWazaID::Apocalypse": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 50,
+                "MAG": 110,
+                "DEF": 85
+            },
+            "Suitabilities": {
+                "EmitFlame": 2,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 3,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "HerculesBeetle_Ground",
+            "Type": [
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::WindCutter": 1,
+                "EPalWazaID::SeedMachinegun": 7,
+                "EPalWazaID::StoneShotgun": 15,
+                "EPalWazaID::ThrowRock": 22,
+                "EPalWazaID::Unique_HerculesBeetle_BeetleTackle": 30,
+                "EPalWazaID::RockLance": 40,
+                "EPalWazaID::SolarBeam": 50
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 100,
+                "MAG": 105,
+                "DEF": 120
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 3,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "SkyDragon_Grass",
+            "Type": [
+                "Dragon",
+                "Grass"
+            ],
+            "Moveset": {
+                "EPalWazaID::DragonCanon": 1,
+                "EPalWazaID::WindCutter": 7,
+                "EPalWazaID::SeedMachinegun": 15,
+                "EPalWazaID::DragonBreath": 22,
+                "EPalWazaID::GrassTornado": 30,
+                "EPalWazaID::Commet": 40,
+                "EPalWazaID::RootLance": 50
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 100,
+                "MAG": 105,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 2,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 2,
+                "Deforest": 0,
+                "Mining": 2,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "KingBahamut_Dragon",
+            "Type": [
+                "Dragon",
+                "Fire"
+            ],
+            "Moveset": {
+                "EPalWazaID::DragonWave": 1,
+                "EPalWazaID::Flamethrower": 7,
+                "EPalWazaID::FlameWall": 15,
+                "EPalWazaID::Commet": 22,
+                "EPalWazaID::BeamSlicer": 30,
+                "EPalWazaID::Unique_KingBahamut_ArmSmash": 40,
+                "EPalWazaID::Unique_KingBahamut_AirCrash": 50
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 150,
+                "MAG": 130,
+                "DEF": 125
+            },
+            "Suitabilities": {
+                "EmitFlame": 3,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 4,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "HadesBird_Electric",
+            "Type": [
+                "Dark",
+                "Electric"
+            ],
+            "Moveset": {
+                "EPalWazaID::SpreadPulse": 1,
+                "EPalWazaID::ElecWave": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::ShadowBall": 22,
+                "EPalWazaID::TriSpark": 30,
+                "EPalWazaID::ThunderRain": 40,
+                "EPalWazaID::ThunderStorm": 50
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 100,
+                "MAG": 125,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 3,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "DarkScorpion_Ground",
+            "Type": [
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::MudShot": 1,
+                "EPalWazaID::StoneShotgun": 7,
+                "EPalWazaID::ThrowRock": 15,
+                "EPalWazaID::SandTornado": 22,
+                "EPalWazaID::Unique_DarkScorpion_Pierce": 30,
+                "EPalWazaID::RockLance": 40,
+                "EPalWazaID::Tremor": 50
+            },
+            "Scaling": {
+                "HP": 100,
+                "PHY": 100,
+                "MAG": 105,
+                "DEF": 130
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 2,
+                "Mining": 3,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "MoonQueen",
+            "Type": [
+                "Dark",
+                "Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DarkArrow": 7,
+                "EPalWazaID::AirBlade": 15,
+                "EPalWazaID::HolyBlast": 22,
+                "EPalWazaID::Unique_MoonQueen_MoonBlade": 30,
+                "EPalWazaID::StarMine": 40,
+                "EPalWazaID::Unique_MoonQueen_MoonBeam": 50
+            },
+            "Scaling": {
+                "HP": 130,
+                "PHY": 100,
+                "MAG": 115,
+                "DEF": 110
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 3,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 3,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GYM_MoonQueen",
+            "Type": [
+                "Dark",
+                "Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::StarMine": 1,
+                "EPalWazaID::PowerBall": 2,
+                "EPalWazaID::Commet": 3,
+                "EPalWazaID::IcicleThrow": 4,
+                "EPalWazaID::Unique_MoonQueen_MoonBeam": 5,
+                "EPalWazaID::Unique_MoonQueen_MoonBlade": 6,
+                "EPalWazaID::HolyBlast": 7,
+                "EPalWazaID::AirBlade": 8,
+                "EPalWazaID::DarkArrow": 9,
+                "EPalWazaID::ShadowBall": 10,
+                "EPalWazaID::DiamondFall": 11
+            },
+            "Tower": true,
+            "Scaling": {
+                "HP": 130,
+                "PHY": 100,
+                "MAG": 115,
+                "DEF": 110
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 3,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 3,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "KendoFrog",
+            "Type": [
+                "Water"
+            ],
+            "Moveset": {
+                "EPalWazaID::WaterGun": 1,
+                "EPalWazaID::BubbleShot": 7,
+                "EPalWazaID::AcidRain": 15,
+                "EPalWazaID::WaterBall": 22,
+                "EPalWazaID::LineGeyser": 30,
+                "EPalWazaID::WallSplash": 40,
+                "EPalWazaID::HydroPump": 50
+            },
+            "Scaling": {
+                "HP": 80,
+                "PHY": 100,
+                "MAG": 100,
+                "DEF": 85
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 1,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 1,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "LeafPrincess",
+            "Type": [
+                "Grass"
+            ],
+            "Moveset": {
+                "EPalWazaID::WindCutter": 1,
+                "EPalWazaID::SeedMachinegun": 7,
+                "EPalWazaID::SpecialCutter": 15,
+                "EPalWazaID::GrassTornado": 22,
+                "EPalWazaID::HolyBlast": 30,
+                "EPalWazaID::RootLance": 40,
+                "EPalWazaID::SolarBeam": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 100,
+                "MAG": 90,
+                "DEF": 80
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 2,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 2,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "MushroomDragon",
+            "Type": [
+                "Grass"
+            ],
+            "Moveset": {
+                "EPalWazaID::PoisonShot": 1,
+                "EPalWazaID::SeedMachinegun": 7,
+                "EPalWazaID::GrassTornado": 15,
+                "EPalWazaID::SeedMine": 22,
+                "EPalWazaID::RootAttack": 30,
+                "EPalWazaID::RootLance": 40,
+                "EPalWazaID::SolarBeam": 50
+            },
+            "Scaling": {
+                "HP": 110,
+                "PHY": 100,
+                "MAG": 80,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 2,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 2,
+                "Deforest": 2,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "MushroomDragon_Dark",
+            "Type": [
+                "Dark",
+                "Grass"
+            ],
+            "Moveset": {
+                "EPalWazaID::PoisonShot": 1,
+                "EPalWazaID::DarkWave": 7,
+                "EPalWazaID::GrassTornado": 15,
+                "EPalWazaID::SeedMine": 22,
+                "EPalWazaID::ShadowBall": 30,
+                "EPalWazaID::RootLance": 40,
+                "EPalWazaID::DarkLaser": 50
+            },
+            "Scaling": {
+                "HP": 110,
+                "PHY": 100,
+                "MAG": 85,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 2,
+                "GenerateElectricity": 0,
+                "Handcraft": 1,
+                "Collection": 2,
+                "Deforest": 2,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "SmallArmadillo",
+            "Type": [
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::PowerShot": 1,
+                "EPalWazaID::MudShot": 7,
+                "EPalWazaID::StoneShotgun": 15,
+                "EPalWazaID::PowerBall": 22,
+                "EPalWazaID::SandTornado": 30,
+                "EPalWazaID::Tremor": 40,
+                "EPalWazaID::RockLance": 50
+            },
+            "Scaling": {
+                "HP": 75,
+                "PHY": 100,
+                "MAG": 70,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 1,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "CandleGhost",
+            "Type": [
+                "Dark",
+                "Fire"
+            ],
+            "Moveset": {
+                "EPalWazaID::FireBlast": 1,
+                "EPalWazaID::DarkBall": 7,
+                "EPalWazaID::FireSeed": 15,
+                "EPalWazaID::GhostFlame": 22,
+                "EPalWazaID::ShadowBall": 30,
+                "EPalWazaID::FlameFunnel": 40,
+                "EPalWazaID::Eruption": 50
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 100,
+                "MAG": 125,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 3,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 2,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 1
+            }
+        },
+        {
+            "CodeName": "ScorpionMan",
+            "Type": [
+                "Dark",
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::PoisonShot": 1,
+                "EPalWazaID::DarkCanon": 7,
+                "EPalWazaID::StoneShotgun": 15,
+                "EPalWazaID::SandTornado": 22,
+                "EPalWazaID::Unique_ScorpionMan_Uppercut": 30,
+                "EPalWazaID::RockLance": 40,
+                "EPalWazaID::DarkLaser": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 100,
+                "MAG": 110,
+                "DEF": 90
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 1,
+                "Deforest": 3,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 1,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "WingGolem",
+            "Type": [
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::PowerShot": 1,
+                "EPalWazaID::StoneShotgun": 7,
+                "EPalWazaID::ThrowRock": 15,
+                "EPalWazaID::Tremor": 22,
+                "EPalWazaID::RockLance": 30,
+                "EPalWazaID::Unique_WingGolem_RoundCutter": 40,
+                "EPalWazaID::SandTwister": 50
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 100,
+                "MAG": 110,
+                "DEF": 135
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 3,
+                "Deforest": 0,
+                "Mining": 3,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 4,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "GuardianDog",
+            "Type": [
+                "Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::MudShot": 1,
+                "EPalWazaID::PowerShot": 7,
+                "EPalWazaID::StoneShotgun": 15,
+                "EPalWazaID::PowerBall": 22,
+                "EPalWazaID::AirBlade": 30,
+                "EPalWazaID::HolyBlast": 40,
+                "EPalWazaID::HyperBeam": 50
+            },
+            "Scaling": {
+                "HP": 85,
+                "PHY": 80,
+                "MAG": 85,
+                "DEF": 85
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 2,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "SifuDog",
+            "Type": [
+                "Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::AirCanon": 1,
+                "EPalWazaID::PowerShot": 7,
+                "EPalWazaID::ThrowRock": 15,
+                "EPalWazaID::PowerBall": 22,
+                "EPalWazaID::AirBlade": 30,
+                "EPalWazaID::Unique_SifuDog_Counter": 40,
+                "EPalWazaID::HyperBeam": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 100,
+                "MAG": 100,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 3,
+                "Collection": 2,
+                "Deforest": 2,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 1,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "FeatherOstrich",
+            "Type": [
+                "Ground"
+            ],
+            "Moveset": {
+                "EPalWazaID::MudShot": 1,
+                "EPalWazaID::PowerShot": 7,
+                "EPalWazaID::StoneShotgun": 15,
+                "EPalWazaID::ThrowRock": 22,
+                "EPalWazaID::Unique_FeatherOstrich_Tossin": 30,
+                "EPalWazaID::Tremor": 40,
+                "EPalWazaID::SandTwister": 50
+            },
+            "Scaling": {
+                "HP": 95,
+                "PHY": 100,
+                "MAG": 90,
+                "DEF": 80
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 2,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "MimicDog",
+            "Type": [
+                "Neutral"
+            ],
+            "Moveset": {
+                "EPalWazaID::PowerShot": 1,
+                "EPalWazaID::DarkCanon": 7,
+                "EPalWazaID::GhostFlame": 15,
+                "EPalWazaID::PowerBall": 22,
+                "EPalWazaID::AirBlade": 30,
+                "EPalWazaID::HolyBlast": 40,
+                "EPalWazaID::HyperBeam": 50
+            },
+            "Scaling": {
+                "HP": 60,
+                "PHY": 100,
+                "MAG": 60,
+                "DEF": 130
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 1,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "DarkAlien",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::PowerShot": 1,
+                "EPalWazaID::PoisonShot": 7,
+                "EPalWazaID::DarkPulse": 15,
+                "EPalWazaID::DarkArrow": 22,
+                "EPalWazaID::ShadowBall": 30,
+                "EPalWazaID::Unique_DarkAlien_JumpScractch": 40,
+                "EPalWazaID::DarkLaser": 50
+            },
+            "Scaling": {
+                "HP": 90,
+                "PHY": 100,
+                "MAG": 125,
+                "DEF": 85
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 2,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "WhiteAlienDragon",
+            "Type": [
+                "Dragon"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DragonWave": 7,
+                "EPalWazaID::AirBlade": 15,
+                "EPalWazaID::DragonBreath": 22,
+                "EPalWazaID::IcicleLine": 30,
+                "EPalWazaID::Commet": 40,
+                "EPalWazaID::BeamSlicer": 50
+            },
+            "Scaling": {
+                "HP": 110,
+                "PHY": 100,
+                "MAG": 120,
+                "DEF": 130
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 3,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "RAID_NightLady",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DarkPulse": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::ShadowBall": 22,
+                "EPalWazaID::Apocalypse": 30,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 40,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::GhostFlame": 1,
+                "EPalWazaID::DarkPulse": 2,
+                "EPalWazaID::ShadowBall": 3,
+                "EPalWazaID::DarkLaser": 4,
+                "EPalWazaID::DarkCanon": 5,
+                "EPalWazaID::DarkArrow": 6,
+                "EPalWazaID::Apocalypse": 7,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 8,
+                "EPalWazaID::Unique_NightLady_WarpBeam_Straight": 9
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 100,
+                "MAG": 140,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "RAID_NightLady_Dark",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DarkPulse": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::ShadowBall": 22,
+                "EPalWazaID::Apocalypse": 30,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 40,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::DarkPulse": 1,
+                "EPalWazaID::ShadowBall": 2,
+                "EPalWazaID::DarkLaser": 3,
+                "EPalWazaID::DarkCanon": 4,
+                "EPalWazaID::DarkLegion": 5,
+                "EPalWazaID::DarkArrow": 6,
+                "EPalWazaID::Apocalypse": 7,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 8,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 9
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 100,
+                "MAG": 150,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "RAID_NightLady_Dark_2",
+            "Type": [
+                "Dark"
+            ],
+            "Moveset": {
+                "EPalWazaID::DarkCanon": 1,
+                "EPalWazaID::DarkPulse": 7,
+                "EPalWazaID::DarkArrow": 15,
+                "EPalWazaID::ShadowBall": 22,
+                "EPalWazaID::Apocalypse": 30,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 40,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::DarkPulse": 1,
+                "EPalWazaID::ShadowBall": 2,
+                "EPalWazaID::DarkLaser": 3,
+                "EPalWazaID::DarkCanon": 4,
+                "EPalWazaID::DarkLegion": 5,
+                "EPalWazaID::DarkArrow": 6,
+                "EPalWazaID::Apocalypse": 7,
+                "EPalWazaID::Unique_NightLady_FlameNightmare": 8,
+                "EPalWazaID::Unique_NightLady_WarpBeam": 9
+            },
+            "Scaling": {
+                "HP": 120,
+                "PHY": 100,
+                "MAG": 150,
+                "DEF": 100
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 2,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 0,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 2,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "RAID_KingBahamut_Dragon",
+            "Type": [
+                "Dragon",
+                "Fire"
+            ],
+            "Moveset": {
+                "EPalWazaID::DragonWave": 1,
+                "EPalWazaID::Flamethrower": 7,
+                "EPalWazaID::FlameWall": 15,
+                "EPalWazaID::Commet": 22,
+                "EPalWazaID::BeamSlicer": 30,
+                "EPalWazaID::Unique_KingBahamut_ArmSmash": 40,
+                "EPalWazaID::Unique_KingBahamut_AirCrash": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::Unique_KingBahamut_AirCrash": 1,
+                "EPalWazaID::Unique_KingBahamut_ArmSmash": 2,
+                "EPalWazaID::ThreeCommet": 3,
+                "EPalWazaID::BlastCanon": 5,
+                "EPalWazaID::DragonMeteor": 6,
+                "EPalWazaID::BeamSlicer": 7,
+                "EPalWazaID::Eruption": 8,
+                "EPalWazaID::FireBall": 9,
+                "EPalWazaID::FlameWall": 10,
+                "EPalWazaID::FlameFunnel": 11
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 150,
+                "MAG": 130,
+                "DEF": 125
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 4,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
+        },
+        {
+            "CodeName": "RAID_KingBahamut_Dragon_2",
+            "Type": [
+                "Dragon",
+                "Fire"
+            ],
+            "Moveset": {
+                "EPalWazaID::DragonWave": 1,
+                "EPalWazaID::Flamethrower": 7,
+                "EPalWazaID::FlameWall": 15,
+                "EPalWazaID::Commet": 22,
+                "EPalWazaID::BeamSlicer": 30,
+                "EPalWazaID::Unique_KingBahamut_ArmSmash": 40,
+                "EPalWazaID::Unique_KingBahamut_AirCrash": 50
+            },
+            "RaidMoveset": {
+                "EPalWazaID::Unique_KingBahamut_AirCrash": 1,
+                "EPalWazaID::Unique_KingBahamut_ArmSmash": 2,
+                "EPalWazaID::CommetRain": 3,
+                "EPalWazaID::BlastCanon": 5,
+                "EPalWazaID::DragonMeteor": 6,
+                "EPalWazaID::BeamSlicer": 7,
+                "EPalWazaID::Eruption": 8,
+                "EPalWazaID::FireBall": 9,
+                "EPalWazaID::FlameWall": 10,
+                "EPalWazaID::FlameFunnel": 11
+            },
+            "Scaling": {
+                "HP": 105,
+                "PHY": 150,
+                "MAG": 130,
+                "DEF": 125
+            },
+            "Suitabilities": {
+                "EmitFlame": 0,
+                "Watering": 0,
+                "Seeding": 0,
+                "GenerateElectricity": 0,
+                "Handcraft": 0,
+                "Collection": 0,
+                "Deforest": 0,
+                "Mining": 4,
+                "OilExtraction": 0,
+                "ProductMedicine": 0,
+                "Cool": 0,
+                "Transport": 0,
+                "MonsterFarm": 0
+            }
         }
     ]
 }

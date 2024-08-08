@@ -1,8 +1,5 @@
 import os, webbrowser, json, time, uuid, math, zipfile
 
-# pyperclip
-# docs: https://pypi.org/project/pyperclip/#description
-# install: pip install pyperclip
 import pyperclip
 
 import palworld_pal_edit.SaveConverter
@@ -25,7 +22,6 @@ from tkinter.filedialog import askopenfilename, asksaveasfilename
 from tkinter import messagebox
 
 from datetime import datetime
-
 
 class UUIDEncoder(json.JSONEncoder):
     def default(self, obj):
@@ -126,16 +122,18 @@ import traceback
 
 
 class PalEditConfig:
-    version = "0.7.2"
+    version = "0.9.2"
     ftsize = 18
-    font = "Arial"
+    font = "Microsoft YaHei"
     badskill = "#DE3C3A"
     okayskill = "#DFE8E7"
     goodskill = "#FEDE00"
+    levelcap = 55
 
 
 class PalEdit():
     ranks = (0, 1, 2, 3, 4)
+    debug_listPassivesSeen = set()
 
     def load_i18n(self, lang=""):
         path = f"{PalInfo.module_dir}/resources/data/en-GB/ui.json"
@@ -173,8 +171,11 @@ class PalEdit():
         self.attackops.sort()
         self.attackops.insert(0, "None")
 
+        # Skip the first load. And handle the situation where the user switches language before loading save.
+        if hasattr(self, "listdisplay") and self.current.get() != "": 
+            self.updateDisplay()
+        
         self.updateSkillMenu()
-
         self.updateAttackName()
         self.updateSkillsName()
         species = [PalInfo.PalSpecies[e].GetName() for e in PalInfo.PalSpecies]
@@ -211,8 +212,8 @@ class PalEdit():
                 atk_upd(menu, atk_id, PalInfo.PalAttacks[codename], codename)
 
         op = [PalInfo.PalPassives[e] for e in PalInfo.PalPassives]
-        op.pop(0)
-        op.pop(0)
+        op.remove("None")
+        op.remove("Unknown")
         op.sort()
         op.insert(0, "None")
 
@@ -488,7 +489,7 @@ class PalEdit():
 
         # All Entities
         self.speciesvar.set(pal.GetCodeName())
-        self.speciesvar_name.set(pal.GetName())
+        self.speciesvar_name.set(PalInfo.PalSpecies[self.speciesvar.get()].GetName())
 
         self.debugTitle.config(text=f"Debug: {pal.GetPalInstanceGuid()}")
         self.storageId.config(text=f"StorageID: {pal.GetSlotGuid()}")
@@ -511,6 +512,15 @@ class PalEdit():
         self.learntMoves.delete(0, tk.constants.END)
         for i in pal._learntMoves:
             an = PalInfo.PalAttacks[i]
+            
+
+            if i in PalInfo.AttackCats:
+                ct = PalInfo.AttackCats[i]
+                match ct:
+                    case "Melee":
+                        an += '⚔'
+                    case "Shot":
+                        an += '🏹'
             if i in pal._equipMoves:
                 self.learntMoves.insert(0, an)
                 self.learntMoves.itemconfig(0, {'bg': 'lightgrey'})
@@ -547,14 +557,16 @@ class PalEdit():
 
             calc = pal.CalculateIngameStats()
             self.hthstatval.config(text=calc["HP"])
-            self.atkstatval.config(text=calc["ATK"])
+            self.matkstatval.config(text=calc["PHY"])
+            self.satkstatval.config(text=calc["MAG"])
             self.defstatval.config(text=calc["DEF"])
         else:
             for i in suitabilities:
                 self.suits[f"{i}_label"].config(text="-")
 
             self.hthstatval.config(text="n/a")
-            self.atkstatval.config(text="n/a")
+            self.matkstatval.config(text="n/a")
+            self.satkstatval.config(text="n/a")
             self.defstatval.config(text="n/a")
 
         # rank
@@ -570,7 +582,9 @@ class PalEdit():
 
         for i in range(0, 4):
             if not s[i] in [p for p in PalInfo.PalPassives]:
-                self.skills[i].set("Unknown")
+                self.skills[i].set("UNKNOWN")
+                self.debug_listPassivesSeen.add(s[i])
+                print(self.debug_listPassivesSeen)
             else:
                 self.skills[i].set(s[i])
 
@@ -660,6 +674,8 @@ class PalEdit():
             self.palbox[self.players[p]] = []
         self.containers = {}
         nullmoves = []
+
+        erroredpals = []
         for i in paldata:
             try:
                 p = PalInfo.PalEntity(i)
@@ -686,6 +702,10 @@ class PalEdit():
                     # self.players[pl] = plguid
                 else:
                     self.unknown.append(str(e))
+                    try:
+                        erroredpals.append(i)
+                    except:
+                        erroredpals.append(None)
                     logger.error(f"Error occured on {i['key']['InstanceId']['value']}", exc_info=True)
                     # print(f"Error occured on {i['key']['InstanceId']['value']}: {e.__class__.__name__}: {str(e)}")
                     # traceback.print_exception(e)
@@ -700,8 +720,11 @@ class PalEdit():
         logger.Space()
         logger.info(f"NOTE: Unknown list is a list of pals that could not be loaded")
         logger.warning(f"Unknown list contains {len(self.unknown)} entries")
-        for i in self.unknown:
-            logger.warning("  %s" % str(i))
+        for i in range(0, len(self.unknown)):
+            logger.warning("  %s" % str(self.unknown[i]))
+            with open(f"pals/error_{i}.json", "wb") as errorfile:
+                errorfile.write(json.dumps(erroredpals[i], indent=4, cls=UUIDEncoder).encode('utf-8'))
+            
 
         logger.Space()
         logger.debug(f"{len(self.players)} players found:")
@@ -909,7 +932,8 @@ Do you want to use %s's DEFAULT Scaling (%s)?
         if not pal.IsTower() and not pal.IsHuman():
             calc = pal.CalculateIngameStats()
             self.hthstatval.config(text=calc["HP"])
-            self.atkstatval.config(text=calc["ATK"])
+            self.matkstatval.config(text=calc["PHY"])
+            self.satkstatval.config(text=calc["MAG"])
             self.defstatval.config(text=calc["DEF"])
 
 
@@ -932,7 +956,7 @@ Do you want to use %s's DEFAULT Scaling (%s)?
         i = int(self.listdisplay.curselection()[0])
         pal = self.palbox[self.players[self.current.get()]][i]
 
-        if pal.GetLevel() == 50:
+        if pal.GetLevel() == PalEditConfig.levelcap:
             return
         lv = pal.GetLevel() + 1
         pal.SetLevel(lv)
@@ -1253,9 +1277,58 @@ Do you want to use %s's DEFAULT Scaling (%s)?
 
         # tools.add_cascade(label="Converter", menu=convmenu, underline=0)
 
+
+
+# for i in paldata:
+#             try:
+#                 p = PalInfo.PalEntity(i)
+#                 if not str(p.owner) in self.palbox:
+#                     self.palbox[str(p.owner)] = []
+#                 self.palbox[str(p.owner)].append(p)
+
+#                 n = p.GetFullName()
+
+#                 for m in p.GetLearntMoves():
+#                     if not m in nullmoves:
+#                         if not m in PalInfo.PalAttacks:
+#                             nullmoves.append(m)
+#             except Exception as e:
+#                 if str(e) == "This is a player character":
+#                     logger.debug(f"Found Player Character")
+#                     # print(f"\nDebug: Data \n{i}\n\n")
+#                     # o = i['value']['RawData']['value']['object']['SaveParameter']['value']
+#                     # pl = "No Name"
+#                     # if "NickName" in o:
+#                     #     pl = o['NickName']['value']
+#                     # plguid = i['key']['PlayerUId']['value']
+#                     # print(f"{pl} - {plguid}")
+#                     # self.players[pl] = plguid
+#                 else:
+#                     self.unknown.append(str(e))
+#                     try:
+#                         erroredpals.append(i)
+#                     except:
+#                         erroredpals.append(None)
+#                     logger.error(f"Error occured on {i['key']['InstanceId']['value']}", exc_info=True)
+#                     # print(f"Error occured on {i['key']['InstanceId']['value']}: {e.__class__.__name__}: {str(e)}")
+#                     # traceback.print_exception(e)
+#                     print()
+#                 # print(f"Debug: Data {i}")
+
+
+
     def updateSkillsName(self):
         for idx, n in enumerate(self.skills):
-            self.skills_name[idx].set(PalInfo.PalPassives[n.get()])
+            try:
+                self.skills_name[idx].set(PalInfo.PalPassives[n.get()])
+            except Exception as e:
+                print(type(n))
+                # self.unknown.append(str(e))
+                # logger.error(f"Error occured on {i['key']['InstanceId']['value']}", exc_info=True)
+                #     # print(f"Error occured on {i['key']['InstanceId']['value']}: {e.__class__.__name__}: {str(e)}")
+                #     # traceback.print_exception(e)
+                # print()
+
 
     def changesoul(self, field):
         if not self.isPalSelected():
@@ -1564,11 +1637,17 @@ Do you want to use %s's DEFAULT Scaling (%s)?
                       width=10)
         self.i18n_el['hp_prop'] = hp
         hp.pack(expand=True, fill=tk.constants.X)
-        attack = tk.Label(statlabelview, text=self.i18n['attack_prop'], font=(PalEditConfig.font, PalEditConfig.ftsize),
+        mattack = tk.Label(statlabelview, text=self.i18n['mattack_prop'], font=(PalEditConfig.font, PalEditConfig.ftsize),
                           bg="darkgrey",
                           width=8)
-        self.i18n_el['attack_prop'] = attack
-        attack.pack(expand=True, fill=tk.constants.X)
+        self.i18n_el['mattack_prop'] = mattack
+        mattack.pack(expand=True, fill=tk.constants.X)
+        sattack = tk.Label(statlabelview, text=self.i18n['sattack_prop'], font=(PalEditConfig.font, PalEditConfig.ftsize),
+                          bg="darkgrey",
+                          width=8)
+        self.i18n_el['sattack_prop'] = sattack
+        sattack.pack(expand=True, fill=tk.constants.X)
+        
         defence = tk.Label(statlabelview, text=self.i18n['defence_prop'], font=(PalEditConfig.font, PalEditConfig.ftsize),
                            bg="darkgrey", width=8)
         self.i18n_el['defence_prop'] = defence
@@ -1583,9 +1662,12 @@ Do you want to use %s's DEFAULT Scaling (%s)?
                                    font=(PalEditConfig.font, PalEditConfig.ftsize),
                                    justify="center")
         self.hthstatval.pack(fill=tk.constants.X)
-        self.atkstatval = tk.Label(statvals, bg="darkgrey", text="100", font=(PalEditConfig.font, PalEditConfig.ftsize),
+        self.matkstatval = tk.Label(statvals, bg="darkgrey", text="100", font=(PalEditConfig.font, PalEditConfig.ftsize),
                                    justify="center")
-        self.atkstatval.pack(fill=tk.constants.X)
+        self.matkstatval.pack(fill=tk.constants.X)
+        self.satkstatval = tk.Label(statvals, bg="darkgrey", text="100", font=(PalEditConfig.font, PalEditConfig.ftsize),
+                                   justify="center")
+        self.satkstatval.pack(fill=tk.constants.X)
         self.defstatval = tk.Label(statvals, bg="darkgrey", text="50", font=(PalEditConfig.font, PalEditConfig.ftsize),
                                    justify="center")
         self.defstatval.pack(fill=tk.constants.X)
@@ -1699,30 +1781,34 @@ Do you want to use %s's DEFAULT Scaling (%s)?
                               lambda name, index, mode, sv=self.phpvar, entry=palhps: validate_and_mark_dirty(sv,
                                                                                                               entry))
         
-        attackframe = tk.Frame(stateditview, width=6, bg="darkgrey")
-        attackframe.pack(fill=tk.constants.X)
+        meleeframe = tk.Frame(stateditview, width=6, bg="darkgrey")
+        meleeframe.pack(fill=tk.constants.X)
         
         self.meleevar = tk.IntVar()
         self.meleevar.dirty = False
         self.meleevar.set(100)
-        ##        meleeicon = tk.Label(attackframe, text="⚔", font=(PalEditConfig.font, PalEditConfig.ftsize))
-        ##        meleeicon.pack(side=tk.constants.LEFT)
-        ##        palmelee = tk.Entry(attackframe, textvariable=self.meleevar, font=(PalEditConfig.font, PalEditConfig.ftsize), width=6)
-        ##        palmelee.config(justify="center", validate="all", validatecommand=(valreg, '%P'), state="disabled")
-        ##        palmelee.bind("<FocusOut>", lambda event, var=self.meleevar: try_update(var))
-        ##        palmelee.pack(side=tk.constants.LEFT)
-        ##        self.meleevar.trace_add("write", lambda name, index, mode, sv=self.meleevar, entry=palmelee: validate_and_mark_dirty(sv, entry))
+        meleeicon = tk.Label(meleeframe, width=2, text="⚔", font=(PalEditConfig.font, PalEditConfig.ftsize))
+        meleeicon.pack(side=tk.constants.LEFT)
+        palmelee = tk.Entry(meleeframe, textvariable=self.meleevar, font=(PalEditConfig.font, PalEditConfig.ftsize), width=6)
+        palmelee.config(justify="center", validate="all", validatecommand=(valreg, '%P'))
+        palmelee.bind("<FocusOut>", lambda event, var=self.meleevar: try_update(var))
+        palmelee.pack(side=tk.constants.RIGHT, expand=True, fill=tk.constants.X, pady=1)
+        self.meleevar.trace_add("write", lambda name, index, mode, sv=self.meleevar, entry=palmelee: validate_and_mark_dirty(sv, entry))
 
+
+        shotframe = tk.Frame(stateditview, width=6, bg="darkgrey")
+        shotframe.pack(fill=tk.constants.X)
+        
         self.shotvar = tk.IntVar()
         self.shotvar.dirty = False
         self.shotvar.set(100)
-        # shoticon = tk.Label(attackframe, text="🏹", font=(PalEditConfig.font, PalEditConfig.ftsize))
-        # shoticon.pack(side=tk.constants.RIGHT)
-        palshot = tk.Entry(attackframe, textvariable=self.shotvar, font=(PalEditConfig.font, PalEditConfig.ftsize),
+        shoticon = tk.Label(shotframe, width=2, text="🏹", font=(PalEditConfig.font, PalEditConfig.ftsize))
+        shoticon.pack(side=tk.constants.LEFT)
+        palshot = tk.Entry(shotframe, textvariable=self.shotvar, font=(PalEditConfig.font, PalEditConfig.ftsize),
                            width=6)
         palshot.config(justify="center", validate="all", validatecommand=(valreg, '%P'))
         palshot.bind("<FocusOut>", lambda event, var=self.shotvar: try_update(var))
-        palshot.pack(expand=True, fill=tk.constants.X, pady=1)
+        palshot.pack(side=tk.constants.RIGHT, expand=True, fill=tk.constants.X, pady=1)
         self.shotvar.trace_add("write",
                                lambda name, index, mode, sv=self.shotvar, entry=palshot: validate_and_mark_dirty(sv,
                                                                                                                  entry))
@@ -1769,10 +1855,10 @@ Do you want to use %s's DEFAULT Scaling (%s)?
         self.updateSkillsName()
 
         op = [PalInfo.PalPassives[e] for e in PalInfo.PalPassives]
-        op.pop(0)
-        op.pop(0)
+        op.remove("None")
         op.sort()
         op.insert(0, "None")
+        op.remove("Unknown")
         self.skilldrops = [
             tk.OptionMenu(topview, self.skills_name[0], *op, command=lambda evt: self.changeskill(0)),
             tk.OptionMenu(topview, self.skills_name[1], *op, command=lambda evt: self.changeskill(1)),
