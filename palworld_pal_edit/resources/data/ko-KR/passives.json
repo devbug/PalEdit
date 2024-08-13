@@ -262,5 +262,65 @@
     "Legend": {
         "Name": "전설",
         "Description": "공격 +20%, 방어 +20%, 이동 속도 +15%"
+    },
+    "Witch": {
+        "Name": "마녀",
+        "Description": "어둠 속성 공격 +30%, 얼음 속성 공격 +30%; 벨라루주 시그니처 능력"
+    },
+    "Stamina_Up_1": {
+        "Name": "넘쳐나는 기력",
+        "Description": "최대 기력 +50% (탑승 가능한 팰에게만 적용)"
+    },
+    "SalePrice_Up_1": {
+        "Name": "고귀",
+        "Description": "거래 가격 향상 +5%"
+    },
+    "CoolTimeReduction_Up_1": {
+        "Name": "냉철함",
+        "Description": "액티브 스킬 쿨타임 단축 30%, 공격 +10%"
+    },
+    "NonKilling": {
+        "Name": "힘 조절",
+        "Description": "공격 대상의 HP를 1 미만으로 깎을 수 없게 된다."
+    },
+    "SalePrice_Up_2": {
+        "Name": "윤기나는 털",
+        "Description": "거래 가격 향상 +3%"
+    },
+    "CoolTimeReduction_Up_2": {
+        "Name": "성급함",
+        "Description": "액티브 스킬 쿨타임 단축 15%"
+    },
+    "Stamina_Up_2": {
+        "Name": "건강한 우량아",
+        "Description": "최대 기력 +25% (탑승 가능한 팰에게만 적용)"
+    },
+    "Nocturnal": {
+        "Name": "야행성",
+        "Description": "밤이 되어도 잠들지 않고 계속 일한다."
+    },
+    "SalePrice_Down_1": {
+        "Name": "초라함",
+        "Description": "거래 가격 악화 -10%"
+    },
+    "Test_PalEgg_HatchingSpeed_Up": {
+        "Name": "박애주의자",
+        "Description": "배합 목장에 배치된 동안 알 생산 속도가 100% 증가한다"
+    },
+    "Stamina_Down_1": {
+        "Name": "은둔형 외톨이",
+        "Description": "최대 기력 -25% (탑승 가능한 팰에게만 적용)"
+    },
+    "CoolTimeReduction_Down_1": {
+        "Name": "느긋함",
+        "Description": "액티브 스킬 쿨타임 연장 -15%"
+    },
+    "EternalFlame": {
+        "Name": "영원한 불꽃",
+        "Description": "화염 속성 공격 +30%, 번개 속성 공격 +30%"
+    },
+    "Alien": {
+        "Name": "미지의 생체세포",
+        "Description": "공격 +10%, 화염 속성 피해 -15%, 번개 속성 피해 -15%"
     }
 }
